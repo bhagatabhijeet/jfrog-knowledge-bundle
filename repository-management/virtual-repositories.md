@@ -92,6 +92,9 @@ sequenceDiagram
 
 # Set one up in five steps
 
+> [!IMPORTANT]
+> **Admins only.** Repositories are created from the **Administration** area by a Platform Admin or a Project Admin. Everyone else uses the result. See [who can create repositories](/repository-management/set-up-dotnet-repositories.md).
+
 | Step | Do this | Example |
 |:-:|---|---|
 | 1 | Create a 🟢 **local** repository for what you build | `payments-maven-dev-local` |

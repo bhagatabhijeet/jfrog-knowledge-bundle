@@ -30,6 +30,19 @@ This walkthrough sets up everything a .NET team needs in JFrog SaaS. NuGet is th
 
 ![Setting up .NET in four steps: create a local repository, a remote repository, a virtual repository, then connect the dotnet client](/assets/images/repository-management/nuget-setup-roadmap.svg)
 
+# Who can do this?
+
+> [!IMPORTANT]
+> **Creating repositories is an administrator's job.** You need **Admin** or **Project Admin** permission. In the interface it is done from the **Administration** area, and if you do not have the permission the option is simply not shown.[^docs-nuget] Developers *use* repositories; administrators *create* them. If you cannot see **Administration → Repositories**, ask your Platform Admin or your Project Admin.
+
+| You are a... | Can you create repositories? | Where |
+|---|---|---|
+| 👑 **Platform Admin** | ✅ Yes, anywhere | **Administration → Repositories** |
+| 🔵 **Project Admin** (with the *Manage Resources* privilege) | ✅ Yes, inside your project | The same screen, with your project selected |
+| 👩‍💻 **Developer** or other member | ❌ No | You use the repositories an admin created |
+
+The same permission applies whichever route is used: the manual steps below, the Quick Repository Creation wizard, or the REST API.
+
 # Why this order?
 
 Yes: **local, then remote, then virtual.**
@@ -46,7 +59,7 @@ Steps 1 and 2 can be swapped. Step 3 must come last.
 
 | You need | Detail |
 |---|---|
-| 🔑 **Permission** | Admin or Project Admin. Without it, the create option is not shown.[^docs-nuget] |
+| 🔑 **Permission** | Admin or Project Admin. See *Who can do this?* above. |
 | 🌐 **Your SaaS address** | It looks like `https://company.jfrog.io` |
 | 🏷️ **Names decided** | This walkthrough uses the names below, following the [naming conventions](/repository-management/repository-naming-conventions.md) |
 

@@ -70,6 +70,9 @@ Almost everything you do in Artifactory touches one of three repository types. L
 | 🟠 Remote | A photocopy of a library book | You fetched it once from elsewhere and kept a copy, so you never need to go back. |
 | 🟣 Virtual | The front desk | You ask one person; they know which shelf to check, and in what order. |
 
+> [!NOTE]
+> **Who sets these up?** Administrators. Creating a repository needs Admin or Project Admin permission and is done from the **Administration** area. Developers and pipelines then use what was created. The [.NET walkthrough](/repository-management/set-up-dotnet-repositories.md) shows who can do what.
+
 ## Which one do I need?
 
 ```mermaid

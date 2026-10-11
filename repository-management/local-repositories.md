@@ -72,6 +72,9 @@ http://company.jfrog.io:8081/artifactory/payments-maven-dev-local/com/acme/app/1
 
 # Creating one
 
+> [!IMPORTANT]
+> **Admins only.** You need Admin or Project Admin permission to create a repository. See [who can create repositories](/repository-management/set-up-dotnet-repositories.md).
+
 In the **Administration** module, select **Repositories**, click **Create a Repository**, choose **Local**, then pick the package type. A local repository can also be created through the REST API.[^docs-local]
 
 # Best practices
