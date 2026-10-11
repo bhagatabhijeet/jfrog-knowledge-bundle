@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 700" width="1200" height="700" role="img" aria-label="Two ways to get Artifactory. Open source: you run it on your own servers, you install and upgrade it, it is a free download and it manages Java binary artifacts. SaaS: JFrog runs it on AWS, Google Cloud or Azure with automated updates, by subscription, with the full JFrog Platform.">
+<defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#0B1026"/><stop offset=".6" stop-color="#1B1650"/><stop offset="1" stop-color="#3A1C8F"/></linearGradient>
+<linearGradient id="oss" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#00C853"/><stop offset="1" stop-color="#B2FF59"/></linearGradient>
+<linearGradient id="saas" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#00B8D4"/><stop offset="1" stop-color="#7C4DFF"/></linearGradient></defs>
+<rect width="1200" height="700" rx="28" fill="url(#bg)"/>
+<circle cx="1110" cy="30" r="170" fill="#7C4DFF" opacity=".18"/><circle cx="60" cy="680" r="160" fill="#00E5FF" opacity=".08"/>
+<text x="40" y="62" font-family="Segoe UI, Helvetica Neue, Helvetica, Arial, sans-serif" font-size="36" font-weight="900" fill="#FFFFFF">Two ways to get Artifactory</text>
+<text x="40" y="92" font-family="Segoe UI, Helvetica Neue, Helvetica, Arial, sans-serif" font-size="18" font-weight="600" fill="#B9C2FF">Run it yourself, or let JFrog run it for you.</text>
+<rect x="40" y="124" width="460" height="530" rx="24" fill="#FFFFFF" fill-opacity=".04" stroke="url(#oss)" stroke-width="3"/>
+<rect x="40" y="124" width="460" height="86" rx="24" fill="url(#oss)"/><rect x="40" y="184" width="460" height="26" fill="url(#oss)"/>
+<text x="270" y="164" text-anchor="middle" font-family="Segoe UI, Helvetica Neue, Helvetica, Arial, sans-serif" font-size="32" font-weight="900" fill="#06210F">Open Source</text>
+<text x="270" y="194" text-anchor="middle" font-family="Segoe UI, Helvetica Neue, Helvetica, Arial, sans-serif" font-size="15" font-weight="800" letter-spacing="3" fill="#06210F">ARTIFACTORY OSS · SELF-HOSTED</text>
+<rect x="700" y="124" width="460" height="530" rx="24" fill="#FFFFFF" fill-opacity=".04" stroke="url(#saas)" stroke-width="3"/>
+<rect x="700" y="124" width="460" height="86" rx="24" fill="url(#saas)"/><rect x="700" y="184" width="460" height="26" fill="url(#saas)"/>
+<text x="930" y="164" text-anchor="middle" font-family="Segoe UI, Helvetica Neue, Helvetica, Arial, sans-serif" font-size="32" font-weight="900" fill="#FFFFFF">SaaS</text>
+<text x="930" y="194" text-anchor="middle" font-family="Segoe UI, Helvetica Neue, Helvetica, Arial, sans-serif" font-size="15" font-weight="800" letter-spacing="3" fill="#FFFFFF">JFROG CLOUD · FULLY MANAGED</text>
+<text x="600" y="176" text-anchor="middle" font-family="Segoe UI, Helvetica Neue, Helvetica, Arial, sans-serif" font-size="20" font-weight="900" letter-spacing="2" fill="#FFE14D">OR</text>
+<rect x="64" y="236" width="412" height="60" rx="14" fill="#00C853" fill-opacity=".20" stroke="#69F0AE" stroke-width="1.5"/>
+<text x="270" y="274" text-anchor="middle" font-family="Segoe UI, Helvetica Neue, Helvetica, Arial, sans-serif" font-size="21" font-weight="700" fill="#FFFFFF">You do</text>
+<rect x="500" y="246" width="200" height="40" rx="20" fill="#FFE14D"/>
+<text x="600" y="273" text-anchor="middle" font-family="Segoe UI, Helvetica Neue, Helvetica, Arial, sans-serif" font-size="15" font-weight="900" letter-spacing="2" fill="#2B1B00">WHO RUNS IT</text>
+<rect x="724" y="236" width="412" height="60" rx="14" fill="#2979FF" fill-opacity=".28" stroke="#82B1FF" stroke-width="1.5"/>
+<text x="930" y="274" text-anchor="middle" font-family="Segoe UI, Helvetica Neue, Helvetica, Arial, sans-serif" font-size="21" font-weight="700" fill="#FFFFFF">JFrog does</text><rect x="64" y="316" width="412" height="60" rx="14" fill="#00C853" fill-opacity=".20" stroke="#69F0AE" stroke-width="1.5"/>
+<text x="270" y="354" text-anchor="middle" font-family="Segoe UI, Helvetica Neue, Helvetica, Arial, sans-serif" font-size="21" font-weight="700" fill="#FFFFFF">Your own servers</text>
+<rect x="500" y="326" width="200" height="40" rx="20" fill="#FFE14D"/>
+<text x="600" y="353" text-anchor="middle" font-family="Segoe UI, Helvetica Neue, Helvetica, Arial, sans-serif" font-size="15" font-weight="900" letter-spacing="2" fill="#2B1B00">WHERE</text>
+<rect x="724" y="316" width="412" height="60" rx="14" fill="#2979FF" fill-opacity=".28" stroke="#82B1FF" stroke-width="1.5"/>
+<text x="930" y="354" text-anchor="middle" font-family="Segoe UI, Helvetica Neue, Helvetica, Arial, sans-serif" font-size="21" font-weight="700" fill="#FFFFFF">AWS · Google Cloud · Azure</text><rect x="64" y="396" width="412" height="60" rx="14" fill="#00C853" fill-opacity=".20" stroke="#69F0AE" stroke-width="1.5"/>
+<text x="270" y="434" text-anchor="middle" font-family="Segoe UI, Helvetica Neue, Helvetica, Arial, sans-serif" font-size="21" font-weight="700" fill="#FFFFFF">You install and upgrade</text>
+<rect x="500" y="406" width="200" height="40" rx="20" fill="#FFE14D"/>
+<text x="600" y="433" text-anchor="middle" font-family="Segoe UI, Helvetica Neue, Helvetica, Arial, sans-serif" font-size="15" font-weight="900" letter-spacing="2" fill="#2B1B00">UPKEEP</text>
+<rect x="724" y="396" width="412" height="60" rx="14" fill="#2979FF" fill-opacity=".28" stroke="#82B1FF" stroke-width="1.5"/>
+<text x="930" y="434" text-anchor="middle" font-family="Segoe UI, Helvetica Neue, Helvetica, Arial, sans-serif" font-size="21" font-weight="700" fill="#FFFFFF">Automated updates</text><rect x="64" y="476" width="412" height="60" rx="14" fill="#00C853" fill-opacity=".20" stroke="#69F0AE" stroke-width="1.5"/>
+<text x="270" y="514" text-anchor="middle" font-family="Segoe UI, Helvetica Neue, Helvetica, Arial, sans-serif" font-size="21" font-weight="700" fill="#FFFFFF">Free download</text>
+<rect x="500" y="486" width="200" height="40" rx="20" fill="#FFE14D"/>
+<text x="600" y="513" text-anchor="middle" font-family="Segoe UI, Helvetica Neue, Helvetica, Arial, sans-serif" font-size="15" font-weight="900" letter-spacing="2" fill="#2B1B00">COST</text>
+<rect x="724" y="476" width="412" height="60" rx="14" fill="#2979FF" fill-opacity=".28" stroke="#82B1FF" stroke-width="1.5"/>
+<text x="930" y="514" text-anchor="middle" font-family="Segoe UI, Helvetica Neue, Helvetica, Arial, sans-serif" font-size="21" font-weight="700" fill="#FFFFFF">Subscription</text><rect x="64" y="556" width="412" height="60" rx="14" fill="#00C853" fill-opacity=".20" stroke="#69F0AE" stroke-width="1.5"/>
+<text x="270" y="594" text-anchor="middle" font-family="Segoe UI, Helvetica Neue, Helvetica, Arial, sans-serif" font-size="21" font-weight="700" fill="#FFFFFF">Java binary artifacts</text>
+<rect x="500" y="566" width="200" height="40" rx="20" fill="#FFE14D"/>
+<text x="600" y="593" text-anchor="middle" font-family="Segoe UI, Helvetica Neue, Helvetica, Arial, sans-serif" font-size="15" font-weight="900" letter-spacing="2" fill="#2B1B00">MANAGES</text>
+<rect x="724" y="556" width="412" height="60" rx="14" fill="#2979FF" fill-opacity=".28" stroke="#82B1FF" stroke-width="1.5"/>
+<text x="930" y="594" text-anchor="middle" font-family="Segoe UI, Helvetica Neue, Helvetica, Arial, sans-serif" font-size="21" font-weight="700" fill="#FFFFFF">The full JFrog Platform</text>
+</svg>
