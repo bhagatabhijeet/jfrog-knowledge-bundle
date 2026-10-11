@@ -58,10 +58,36 @@
 | **17** | [Smart Remote repositories](repository-management/smart-remote-repositories.md) |
 | **18** | [Virtual repositories](repository-management/virtual-repositories.md) |
 | **19** | [Repository naming conventions](repository-management/repository-naming-conventions.md) |
+| **20** | [Why the package type matters](repository-management/why-package-type-matters.md) |
+| **21** | [Walkthrough: set up .NET repositories](repository-management/set-up-dotnet-repositories.md) |
 
 🟢 **New here?** Start at **01** and follow the *next* link at the foot of each page.
 
 🟣 **Know the basics?** Jump straight to **14**.
+
+</td>
+</tr>
+</table>
+
+<table>
+<tr>
+<td width="50%" valign="top">
+
+<a href="projects/index.md"><img src="assets/readme/chapter-03.svg" alt="Chapter 03: Projects. Give every team its own workspace." width="100%"/></a>
+
+| | Concept |
+|:-:|---|
+| **22** | [What is a JFrog Project?](projects/what-is-a-project.md) |
+| **23** | [Project roles and members](projects/project-roles-and-members.md) |
+| **24** | [Project resources, environments and quotas](projects/project-resources.md) |
+| **25** | [Set up a project](projects/set-up-a-project.md) |
+
+</td>
+<td width="50%" valign="top">
+
+<a href="projects/what-is-a-project.md"><img src="assets/images/projects/project-anatomy.svg" alt="Inside a JFrog Project" width="100%"/></a>
+
+🔵 **Running a team on JFrog?** Chapter 03 shows how a Project keeps your people, repositories and rules in one workspace.
 
 </td>
 </tr>
@@ -136,7 +162,12 @@ flowchart LR
         direction LR
         D["Repository<br/>types"]:::orange --> E["Local, remote,<br/>Smart Remote, virtual"]:::pink --> F["Naming and<br/>governance"]:::purple
     end
+    subgraph T3["Chapter 03 · Projects"]
+        direction LR
+        G["What a<br/>Project is"]:::teal --> H["Roles, resources,<br/>environments"]:::blue --> I["Set one up"]:::green
+    end
     C ==> D
+    F ==> G
     classDef green fill:#00C853,stroke:#00963F,color:#06210F
     classDef teal fill:#00B8D4,stroke:#008BA3,color:#00222A
     classDef blue fill:#2979FF,stroke:#004ECB,color:#FFFFFF
@@ -278,7 +309,8 @@ What an agent gets from the format:
 |---|---|
 | 📗 [JFrog Introduction](jfrog-introduction/index.md) | 🚧 Draft, awaiting human review |
 | 📙 [Repository Management](repository-management/index.md) | 🚧 Draft, awaiting human review |
-| 📘 More topics | ⏳ Coming, one chapter at a time |
+| 📘 [Projects](projects/index.md) | 🚧 Draft, awaiting human review |
+| 📕 More topics | ⏳ Coming, one chapter at a time |
 
 Watch or star the repository to catch each new chapter.
 

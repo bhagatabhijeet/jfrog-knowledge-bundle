@@ -12,3 +12,8 @@
 # Governance
 
 * [Repository naming conventions](repository-naming-conventions.md) - JFrog's recommended naming patterns for local, remote and virtual repositories, and how naming supports governance.
+* [Why the package type matters](why-package-type-matters.md) - Every repository has one package type, fixed at creation; pick the wrong one and Artifactory stores your files but does not understand them.
+
+# Hands-on
+
+* [Walkthrough: set up .NET repositories in JFrog SaaS](set-up-dotnet-repositories.md) - Step-by-step creation of a local, a remote and a virtual NuGet repository in JFrog SaaS, in that order, then connecting the dotnet client.

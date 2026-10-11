@@ -1,6 +1,9 @@
 # Bundle Update Log
 
 ## 2026-10-11
+* **Creation**: Added the [Projects](projects/) topic with four concepts and three infographics, written from JFrog's public documentation.
+* **Update**: Rebuilt the second half of [Virtual repositories](repository-management/virtual-repositories.md): a 10-second test infographic replaces the decision flowchart, and duplicated sections are merged.
+* **Creation**: Added [Why the package type matters](repository-management/why-package-type-matters.md) and a [.NET repository setup walkthrough](repository-management/set-up-dotnet-repositories.md) to Repository Management, each with an infographic.
 * **Update**: Added a full "When to use a virtual repository" guide to [Virtual repositories](repository-management/virtual-repositories.md), with a before-and-after infographic.
 * **Update**: Expanded the three repository types in [Repository Management](repository-management/) with five infographics, including an illustrated big-picture poster, a comparison table, an analogy and a decision guide.
 * **Creation**: Added [Checksum-based storage](jfrog-introduction/checksum-based-storage.md) to JFrog Introduction, with an infographic.

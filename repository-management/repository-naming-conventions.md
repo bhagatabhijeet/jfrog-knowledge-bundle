@@ -81,4 +81,4 @@ Create separate repositories for different teams or business units. The team nam
 
 ---
 
-⬅️ [Virtual repositories](/repository-management/virtual-repositories.md) · 📚 [Topic index](/repository-management/index.md)
+⬅️ [Virtual repositories](/repository-management/virtual-repositories.md) · 📚 [Topic index](/repository-management/index.md) · [Why the package type matters](/repository-management/why-package-type-matters.md) ➡️
