@@ -20,6 +20,22 @@ stale_after: 2027-04-10T00:00:00+00:00
 
 A remote repository is a caching proxy for a repository managed at a remote URL.[^docs-remote] The [introduction](/jfrog-introduction/remote-repositories.md) covers why this matters; this page covers how it behaves.
 
+![A remote repository: fetches a dependency once from an outside registry, caches it and serves later requests from the cache](/assets/images/repository-management/remote-repository.svg)
+
+# Where a remote repository fetches from
+
+> [!NOTE]
+> **Proxy + cache for external dependencies.** A remote repository stands between your builds and the outside world.
+
+| Upstream source | What you get from it |
+|---|---|
+| ☕ **Maven Central** | Java libraries |
+| 🟩 **npm registry** | JavaScript packages |
+| 🐍 **PyPI** | Python packages |
+| 🔁 **Another Artifactory instance** | Artifacts from another team or site. This kind is a [Smart Remote repository](/repository-management/smart-remote-repositories.md). |
+
+One remote repository points at one upstream. A team typically creates one per registry it depends on.
+
 ```mermaid
 %%{init: {'theme':'base','themeVariables':{'primaryColor':'#FFE0B2','primaryBorderColor':'#FF8A00','primaryTextColor':'#2B1B00','lineColor':'#7C4DFF','secondaryColor':'#E1BEE7','tertiaryColor':'#FFF3E0','noteBkgColor':'#E1BEE7','noteTextColor':'#2A0A3A','noteBorderColor':'#7C4DFF'}}}%%
 sequenceDiagram

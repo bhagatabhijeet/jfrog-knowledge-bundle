@@ -20,6 +20,10 @@ stale_after: 2027-04-10T00:00:00+00:00
 
 In Artifactory, a repository is a place to organize artifacts into a cohesive group by application and project. Artifactory hosts four repository types.[^docs-repo-mgmt]
 
+![How the three repository types work together: developers and pipelines use one virtual URL, which checks the local repository first and then the remote, which fetches from the internet](/assets/images/repository-management/repositories-big-picture.svg)
+
+![The three types of Artifactory repositories: local, remote and virtual, with what each one does and what goes in it](/assets/images/repository-management/three-repository-types.svg)
+
 ```mermaid
 %%{init: {'theme':'base','themeVariables':{'primaryColor':'#FFE0B2','primaryBorderColor':'#FF8A00','primaryTextColor':'#2B1B00','lineColor':'#7C4DFF','secondaryColor':'#E1BEE7','tertiaryColor':'#FFF3E0','noteBkgColor':'#E1BEE7','noteTextColor':'#2A0A3A','noteBorderColor':'#7C4DFF'}}}%%
 flowchart LR
@@ -30,7 +34,61 @@ flowchart LR
     L <-->|"federated sync"| L2[("Federated repository<br/>at another site")]
 ```
 
-# The four types
+# The three you will use every day
+
+Almost everything you do in Artifactory touches one of three repository types. Learn these three and the rest follows.
+
+| | 🟢 Local | 🟠 Remote | 🟣 Virtual |
+|---|---|---|---|
+| **In one phrase** | Upload = local repository | Proxy + cache for external dependencies | One URL in front of both |
+| **Direction** | You push artifacts **in** | It pulls artifacts **in from outside** | It **routes** requests to the others |
+| **Holds** | What your organization builds | Cached copies of what you depend on | Nothing of its own |
+| **Typical contents** | Your organizational artifacts, internal packages, microservice artifacts, client-specific builds | Packages from Maven Central, the npm registry, PyPI, or another Artifactory instance | A list of local and remote repositories |
+| **Can you upload to it?** | ✅ Yes | ❌ No | ↪️ Yes, it forwards to a default local |
+| **Who uses it** | CI pipelines publishing builds | Builds resolving third-party dependencies | Every developer and pipeline, as their single address |
+| **Deep dive** | [Local repositories](/repository-management/local-repositories.md) | [Remote repositories](/repository-management/remote-repositories.md) | [Virtual repositories](/repository-management/virtual-repositories.md) |
+
+## A picture for each
+
+**🟢 Local: your own shelf.** If your organization made it, it lives here.
+
+![A local repository: builds and manual uploads deploy into it; developers, pipelines and environments download from it](/assets/images/repository-management/local-repository.svg)
+
+**🟠 Remote: fetch once, keep a copy.** The first request goes out to the internet; every later one is answered from the cache.
+
+![A remote repository: fetches a dependency once from an outside registry, caches it and serves later requests from the cache](/assets/images/repository-management/remote-repository.svg)
+
+**🟣 Virtual: the front desk.** One address for everyone, whatever sits behind it.
+
+![A virtual repository: one URL for developers and pipelines, checking the local repository first and then the remote](/assets/images/repository-management/virtual-repository.svg)
+
+## An everyday analogy
+
+| Repository | Think of it as | Because |
+|---|---|---|
+| 🟢 Local | Your own bookshelf | It holds the books you wrote yourself. |
+| 🟠 Remote | A photocopy of a library book | You fetched it once from elsewhere and kept a copy, so you never need to go back. |
+| 🟣 Virtual | The front desk | You ask one person; they know which shelf to check, and in what order. |
+
+## Which one do I need?
+
+```mermaid
+%%{init: {'theme':'base','themeVariables':{'primaryColor':'#FFE0B2','primaryBorderColor':'#FF8A00','primaryTextColor':'#2B1B00','lineColor':'#7C4DFF','secondaryColor':'#E1BEE7','tertiaryColor':'#FFF3E0','noteBkgColor':'#E1BEE7','noteTextColor':'#2A0A3A','noteBorderColor':'#7C4DFF'}}}%%
+flowchart TD
+    Q1{"What are you doing?"}
+    Q1 -->|"Publishing something<br/>we built"| L["🟢 Local repository"]
+    Q1 -->|"Using a library<br/>from the internet"| R["🟠 Remote repository"]
+    Q1 -->|"Configuring a build tool<br/>or developer machine"| V["🟣 Virtual repository"]
+    V -.->|"which contains"| L
+    V -.->|"and"| R
+```
+
+> [!IMPORTANT]
+> **The golden rule:** people and pipelines talk to the **virtual** repository. Locals and remotes do the work behind it.
+>
+> This is the one to get right. Read [when to use a virtual repository](/repository-management/virtual-repositories.md) before you configure a single tool.
+
+# The full list: four types
 
 | Type | What it holds | Typical use |
 |---|---|---|

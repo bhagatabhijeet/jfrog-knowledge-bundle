@@ -20,6 +20,22 @@ stale_after: 2027-04-10T00:00:00+00:00
 
 A local repository stores and manages the artifacts your organization uploads or creates internally, often called first-party artifacts. It gives you a central location for your internal binaries.[^docs-local]
 
+![A local repository: builds and manual uploads deploy into it; developers, pipelines and environments download from it](/assets/images/repository-management/local-repository.svg)
+
+# What belongs in a local repository
+
+> [!NOTE]
+> **Upload = local repository.** If you are uploading something, a local repository is where it lands.
+
+| Put here | For example |
+|---|---|
+| 🏢 **Your organizational artifacts** | The applications and services your company ships |
+| 📦 **Internal packages** | Shared libraries one team publishes for other teams |
+| 🧩 **Microservice artifacts** | The build output of each service, version after version |
+| 🤝 **Client-specific builds** | A build customized for one customer |
+
+What does **not** belong: open source packages from the internet. Those arrive through a [remote repository](/repository-management/remote-repositories.md).
+
 ```mermaid
 %%{init: {'theme':'base','themeVariables':{'primaryColor':'#FFE0B2','primaryBorderColor':'#FF8A00','primaryTextColor':'#2B1B00','lineColor':'#7C4DFF','secondaryColor':'#E1BEE7','tertiaryColor':'#FFF3E0','noteBkgColor':'#E1BEE7','noteTextColor':'#2A0A3A','noteBorderColor':'#7C4DFF'}}}%%
 flowchart LR
