@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 700" width="1200" height="700" role="img" aria-label="Git versus Artifactory. Git is built for source code: it stores text you write, versions by content, finds things by text, cannot resolve package dependencies, and every clone carries every large binary. Artifactory is built for artifacts: it stores binaries you build, versions by name and version, finds things by metadata, resolves dependencies natively, and lets you fetch only what you need.">
+<defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#0B1026"/><stop offset=".6" stop-color="#1B1650"/><stop offset="1" stop-color="#3A1C8F"/></linearGradient>
+<linearGradient id="hot" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#00C853"/><stop offset="1" stop-color="#00B8D4"/></linearGradient>
+<linearGradient id="cool" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#FF8A3D"/><stop offset="1" stop-color="#FF4FA3"/></linearGradient></defs>
+<rect width="1200" height="700" rx="28" fill="url(#bg)"/>
+<circle cx="1110" cy="30" r="170" fill="#7C4DFF" opacity=".18"/><circle cx="60" cy="680" r="160" fill="#00E5FF" opacity=".08"/>
+<text x="40" y="62" font-family="Segoe UI, Helvetica Neue, Helvetica, Arial, sans-serif" font-size="36" font-weight="900" fill="#FFFFFF">Right tool, right job</text>
+<text x="40" y="92" font-family="Segoe UI, Helvetica Neue, Helvetica, Arial, sans-serif" font-size="18" font-weight="600" fill="#B9C2FF">Git and Artifactory are partners. Each one keeps a different thing.</text>
+<rect x="40" y="124" width="460" height="530" rx="24" fill="#FFFFFF" fill-opacity=".04" stroke="url(#cool)" stroke-width="3"/>
+<rect x="40" y="124" width="460" height="86" rx="24" fill="url(#cool)"/><rect x="40" y="184" width="460" height="26" fill="url(#cool)"/>
+<text x="270" y="164" text-anchor="middle" font-family="Segoe UI, Helvetica Neue, Helvetica, Arial, sans-serif" font-size="32" font-weight="900" fill="#2B0A1E">Git</text>
+<text x="270" y="194" text-anchor="middle" font-family="Segoe UI, Helvetica Neue, Helvetica, Arial, sans-serif" font-size="15" font-weight="800" letter-spacing="3" fill="#2B0A1E">BUILT FOR SOURCE CODE</text>
+<rect x="700" y="124" width="460" height="530" rx="24" fill="#FFFFFF" fill-opacity=".04" stroke="url(#hot)" stroke-width="3"/>
+<rect x="700" y="124" width="460" height="86" rx="24" fill="url(#hot)"/><rect x="700" y="184" width="460" height="26" fill="url(#hot)"/>
+<text x="930" y="164" text-anchor="middle" font-family="Segoe UI, Helvetica Neue, Helvetica, Arial, sans-serif" font-size="32" font-weight="900" fill="#06210F">Artifactory</text>
+<text x="930" y="194" text-anchor="middle" font-family="Segoe UI, Helvetica Neue, Helvetica, Arial, sans-serif" font-size="15" font-weight="800" letter-spacing="3" fill="#06210F">BUILT FOR ARTIFACTS</text>
+<text x="600" y="176" text-anchor="middle" font-family="Segoe UI, Helvetica Neue, Helvetica, Arial, sans-serif" font-size="30" font-weight="900" fill="#FFE14D">+</text>
+<rect x="64" y="236" width="412" height="60" rx="14" fill="#FFFFFF" fill-opacity=".07"/>
+<text x="270" y="274" text-anchor="middle" font-family="Segoe UI, Helvetica Neue, Helvetica, Arial, sans-serif" font-size="21" font-weight="600" fill="#FFFFFF">Text you write</text>
+<rect x="500" y="246" width="200" height="40" rx="20" fill="#FFE14D"/>
+<text x="600" y="273" text-anchor="middle" font-family="Segoe UI, Helvetica Neue, Helvetica, Arial, sans-serif" font-size="15" font-weight="900" letter-spacing="2" fill="#2B1B00">STORES</text>
+<rect x="724" y="236" width="412" height="60" rx="14" fill="#00C853" fill-opacity=".22" stroke="#69F0AE" stroke-width="1.5"/>
+<text x="930" y="274" text-anchor="middle" font-family="Segoe UI, Helvetica Neue, Helvetica, Arial, sans-serif" font-size="21" font-weight="700" fill="#FFFFFF">Binaries you build</text><rect x="64" y="316" width="412" height="60" rx="14" fill="#FFFFFF" fill-opacity=".07"/>
+<text x="270" y="354" text-anchor="middle" font-family="Segoe UI, Helvetica Neue, Helvetica, Arial, sans-serif" font-size="21" font-weight="600" fill="#FFFFFF">Content, line by line</text>
+<rect x="500" y="326" width="200" height="40" rx="20" fill="#FFE14D"/>
+<text x="600" y="353" text-anchor="middle" font-family="Segoe UI, Helvetica Neue, Helvetica, Arial, sans-serif" font-size="15" font-weight="900" letter-spacing="2" fill="#2B1B00">VERSIONS BY</text>
+<rect x="724" y="316" width="412" height="60" rx="14" fill="#00C853" fill-opacity=".22" stroke="#69F0AE" stroke-width="1.5"/>
+<text x="930" y="354" text-anchor="middle" font-family="Segoe UI, Helvetica Neue, Helvetica, Arial, sans-serif" font-size="21" font-weight="700" fill="#FFFFFF">Name and version</text><rect x="64" y="396" width="412" height="60" rx="14" fill="#FFFFFF" fill-opacity=".07"/>
+<text x="270" y="434" text-anchor="middle" font-family="Segoe UI, Helvetica Neue, Helvetica, Arial, sans-serif" font-size="21" font-weight="600" fill="#FFFFFF">Text inside files</text>
+<rect x="500" y="406" width="200" height="40" rx="20" fill="#FFE14D"/>
+<text x="600" y="433" text-anchor="middle" font-family="Segoe UI, Helvetica Neue, Helvetica, Arial, sans-serif" font-size="15" font-weight="900" letter-spacing="2" fill="#2B1B00">FIND THINGS BY</text>
+<rect x="724" y="396" width="412" height="60" rx="14" fill="#00C853" fill-opacity=".22" stroke="#69F0AE" stroke-width="1.5"/>
+<text x="930" y="434" text-anchor="middle" font-family="Segoe UI, Helvetica Neue, Helvetica, Arial, sans-serif" font-size="21" font-weight="700" fill="#FFFFFF">Metadata, name, version</text><rect x="64" y="476" width="412" height="60" rx="14" fill="#FFFFFF" fill-opacity=".07"/>
+<text x="270" y="514" text-anchor="middle" font-family="Segoe UI, Helvetica Neue, Helvetica, Arial, sans-serif" font-size="21" font-weight="600" fill="#FFFFFF">Cannot resolve dependencies</text>
+<rect x="500" y="486" width="200" height="40" rx="20" fill="#FFE14D"/>
+<text x="600" y="513" text-anchor="middle" font-family="Segoe UI, Helvetica Neue, Helvetica, Arial, sans-serif" font-size="15" font-weight="900" letter-spacing="2" fill="#2B1B00">PACKAGE MANAGERS</text>
+<rect x="724" y="476" width="412" height="60" rx="14" fill="#00C853" fill-opacity=".22" stroke="#69F0AE" stroke-width="1.5"/>
+<text x="930" y="514" text-anchor="middle" font-family="Segoe UI, Helvetica Neue, Helvetica, Arial, sans-serif" font-size="21" font-weight="700" fill="#FFFFFF">Resolves them natively</text><rect x="64" y="556" width="412" height="60" rx="14" fill="#FFFFFF" fill-opacity=".07"/>
+<text x="270" y="594" text-anchor="middle" font-family="Segoe UI, Helvetica Neue, Helvetica, Arial, sans-serif" font-size="21" font-weight="600" fill="#FFFFFF">Every clone carries them all</text>
+<rect x="500" y="566" width="200" height="40" rx="20" fill="#FFE14D"/>
+<text x="600" y="593" text-anchor="middle" font-family="Segoe UI, Helvetica Neue, Helvetica, Arial, sans-serif" font-size="15" font-weight="900" letter-spacing="2" fill="#2B1B00">LARGE BINARIES</text>
+<rect x="724" y="556" width="412" height="60" rx="14" fill="#00C853" fill-opacity=".22" stroke="#69F0AE" stroke-width="1.5"/>
+<text x="930" y="594" text-anchor="middle" font-family="Segoe UI, Helvetica Neue, Helvetica, Arial, sans-serif" font-size="21" font-weight="700" fill="#FFFFFF">Fetch only what you need</text>
+</svg>
