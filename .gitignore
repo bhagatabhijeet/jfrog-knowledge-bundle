@@ -1,0 +1,3 @@
+# Source videos stay out of the repo
+*.mp4
+*:Zone.Identifier
