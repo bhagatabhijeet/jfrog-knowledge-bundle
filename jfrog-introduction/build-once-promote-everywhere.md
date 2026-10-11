@@ -46,4 +46,4 @@ flowchart LR
 
 ---
 
-⬅️ [What JFrog Artifactory is](/jfrog-introduction/what-is-artifactory.md) · 📚 [Topic index](/jfrog-introduction/index.md) · [Universal package support and the single source of truth](/jfrog-introduction/universal-package-support.md) ➡️
+⬅️ [Checksum-based storage: how Artifactory keeps binaries](/jfrog-introduction/checksum-based-storage.md) · 📚 [Topic index](/jfrog-introduction/index.md) · [Universal package support and the single source of truth](/jfrog-introduction/universal-package-support.md) ➡️

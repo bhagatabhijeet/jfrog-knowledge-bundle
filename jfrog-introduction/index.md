@@ -5,6 +5,8 @@
 * [Artifact sprawl: the problem Artifactory solves](artifact-sprawl.md) - How a growing software team loses track of its binaries, and what that costs.
 * [Why not Git for artifacts? Why Artifactory?](why-not-git-for-artifacts.md) - Why a version control system is the wrong place to keep build artifacts, and what an artifact repository manager like Artifactory does that Git cannot.
 * [What JFrog Artifactory is](what-is-artifactory.md) - Artifactory as the one organized place where a team stores, manages and traces every artifact it builds.
+* [Artifactory editions: Open Source and SaaS](artifactory-editions.md) - The two ways to get JFrog Artifactory, a free open source edition you host yourself and a SaaS edition JFrog runs for you, and how to choose.
+* [Checksum-based storage: how Artifactory keeps binaries](checksum-based-storage.md) - Artifactory stores every binary once, named by its checksum, and keeps paths in a database; this is what makes it fast, lean and trustworthy.
 
 # Capabilities
 

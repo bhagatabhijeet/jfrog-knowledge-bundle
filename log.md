@@ -1,6 +1,10 @@
 # Bundle Update Log
 
 ## 2026-10-11
+* **Update**: Added a full "When to use a virtual repository" guide to [Virtual repositories](repository-management/virtual-repositories.md), with a before-and-after infographic.
+* **Update**: Expanded the three repository types in [Repository Management](repository-management/) with five infographics, including an illustrated big-picture poster, a comparison table, an analogy and a decision guide.
+* **Creation**: Added [Checksum-based storage](jfrog-introduction/checksum-based-storage.md) to JFrog Introduction, with an infographic.
+* **Creation**: Added [Artifactory editions: Open Source and SaaS](jfrog-introduction/artifactory-editions.md) to JFrog Introduction, with an infographic.
 * **Creation**: Added [Why not Git for artifacts? Why Artifactory?](jfrog-introduction/why-not-git-for-artifacts.md) to JFrog Introduction, with an infographic.
 * **Creation**: Added [What is an artifact repository?](jfrog-introduction/what-is-an-artifact-repository.md) to JFrog Introduction, with an infographic.
 * **Update**: Added a worked code-to-artifact example with an infographic to [What is an artifact?](jfrog-introduction/what-is-an-artifact.md).

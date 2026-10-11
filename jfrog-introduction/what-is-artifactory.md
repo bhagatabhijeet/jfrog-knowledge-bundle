@@ -59,4 +59,4 @@ For Complexoft, builds became reliable, deployments became predictable, and the 
 
 ---
 
-⬅️ [Why not Git for artifacts? Why Artifactory?](/jfrog-introduction/why-not-git-for-artifacts.md) · 📚 [Topic index](/jfrog-introduction/index.md) · [Build once, promote everywhere](/jfrog-introduction/build-once-promote-everywhere.md) ➡️
+⬅️ [Why not Git for artifacts? Why Artifactory?](/jfrog-introduction/why-not-git-for-artifacts.md) · 📚 [Topic index](/jfrog-introduction/index.md) · [Artifactory editions: Open Source and SaaS](/jfrog-introduction/artifactory-editions.md) ➡️
