@@ -1,0 +1,12 @@
+cff-version: 1.2.0
+message: "Attribution is appreciated but not required. If you credit this work, please use the details below."
+title: "JFrog Knowledge Bundle"
+type: dataset
+authors:
+  - name: "Abhijeet Bhagat"
+    alias: bhagatabhijeet
+repository-code: "https://github.com/bhagatabhijeet/jfrog-knowledge-bundle"
+url: "https://github.com/bhagatabhijeet/jfrog-knowledge-bundle"
+abstract: "JFrog training as an Open Knowledge Format (OKF) v0.2 bundle: one concept per Markdown page, with diagrams and trust metadata, readable by people and AI agents."
+keywords: [jfrog, artifactory, training, okf, open-knowledge-format, knowledge-bundle]
+license: CC0-1.0
