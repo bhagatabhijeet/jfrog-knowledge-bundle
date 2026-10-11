@@ -1,6 +1,8 @@
 # Bundle Update Log
 
 ## 2026-10-11
+* **Creation**: Added the [Finding your way around](platform-navigation/) topic with five concepts and four infographics: the top bar, sites and subscriptions, the launcher, the two menus and MyJFrog.
+* **Update**: Stated up front, on the repository pages and the .NET walkthrough, that creating repositories needs Admin or Project Admin permission.
 * **Creation**: Added the [Projects](projects/) topic with four concepts and three infographics, written from JFrog's public documentation.
 * **Update**: Rebuilt the second half of [Virtual repositories](repository-management/virtual-repositories.md): a 10-second test infographic replaces the decision flowchart, and duplicated sections are merged.
 * **Creation**: Added [Why the package type matters](repository-management/why-package-type-matters.md) and a [.NET repository setup walkthrough](repository-management/set-up-dotnet-repositories.md) to Repository Management, each with an infographic.

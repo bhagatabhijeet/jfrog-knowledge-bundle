@@ -93,6 +93,31 @@
 </tr>
 </table>
 
+<table>
+<tr>
+<td width="50%" valign="top">
+
+<a href="platform-navigation/index.md"><img src="assets/readme/chapter-04.svg" alt="Chapter 04: Finding your way around. The interface, decoded." width="100%"/></a>
+
+| | Concept |
+|:-:|---|
+| **26** | [The top bar, decoded](platform-navigation/the-top-bar.md) |
+| **27** | [Subscriptions, sites and JPDs](platform-navigation/subscriptions-sites-and-jpds.md) |
+| **28** | [The launcher](platform-navigation/the-launcher.md) |
+| **29** | [Platform or Administration?](platform-navigation/platform-and-administration.md) |
+| **30** | [MyJFrog: the account portal](platform-navigation/myjfrog-portal.md) |
+
+</td>
+<td width="50%" valign="top">
+
+<a href="platform-navigation/the-top-bar.md"><img src="assets/images/platform-navigation/top-bar-decoded.svg" alt="The top bar, decoded" width="100%"/></a>
+
+🟠 **Just logged in and lost?** Chapter 04 explains every button across the top of the screen. It is a good first stop even before chapter 01.
+
+</td>
+</tr>
+</table>
+
 <img src="assets/readme/divider.svg" alt="" width="100%"/>
 
 ## ✨ Why you will keep reading
@@ -310,6 +335,7 @@ What an agent gets from the format:
 | 📗 [JFrog Introduction](jfrog-introduction/index.md) | 🚧 Draft, awaiting human review |
 | 📙 [Repository Management](repository-management/index.md) | 🚧 Draft, awaiting human review |
 | 📘 [Projects](projects/index.md) | 🚧 Draft, awaiting human review |
+| 📒 [Finding your way around](platform-navigation/index.md) | 🚧 Draft, awaiting human review |
 | 📕 More topics | ⏳ Coming, one chapter at a time |
 
 Watch or star the repository to catch each new chapter.
