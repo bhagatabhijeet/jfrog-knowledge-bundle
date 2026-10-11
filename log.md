@@ -1,0 +1,10 @@
+# Bundle Update Log
+
+## 2026-10-11
+* **Update**: Added a one-line takeaway, a diagram and previous/next navigation to every concept.
+* **Update**: Removed the two overview concepts and regenerated the illustrations in `assets/images/jfrog-introduction/`.
+
+## 2026-10-10
+* **Creation**: Added the [Repository Management](repository-management/) topic with six concepts, written from JFrog's public documentation.
+* **Creation**: Added the [JFrog Introduction](jfrog-introduction/) topic with eight concepts and illustrations in `assets/images/jfrog-introduction/`.
+* **Initialization**: Created the bundle root with `index.md` and `log.md`.
