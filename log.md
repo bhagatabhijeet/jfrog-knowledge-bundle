@@ -1,6 +1,8 @@
 # Bundle Update Log
 
 ## 2026-10-11
+* **Update**: Gave every concept diagram a colour theme, one palette per topic.
+* **Update**: Redesigned the README as a magazine-style cover, with artwork in `assets/readme/`, and added `CITATION.cff` for optional credit.
 * **Update**: Added a one-line takeaway, a diagram and previous/next navigation to every concept.
 * **Update**: Removed the two overview concepts and regenerated the illustrations in `assets/images/jfrog-introduction/`.
 
