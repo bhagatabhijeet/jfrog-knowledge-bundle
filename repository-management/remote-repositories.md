@@ -21,6 +21,7 @@ stale_after: 2027-04-10T00:00:00+00:00
 A remote repository is a caching proxy for a repository managed at a remote URL.[^docs-remote] The [introduction](/jfrog-introduction/remote-repositories.md) covers why this matters; this page covers how it behaves.
 
 ```mermaid
+%%{init: {'theme':'base','themeVariables':{'primaryColor':'#FFE0B2','primaryBorderColor':'#FF8A00','primaryTextColor':'#2B1B00','lineColor':'#7C4DFF','secondaryColor':'#E1BEE7','tertiaryColor':'#FFF3E0','noteBkgColor':'#E1BEE7','noteTextColor':'#2A0A3A','noteBorderColor':'#7C4DFF'}}}%%
 sequenceDiagram
     participant C as Client
     participant R as Remote repository

@@ -21,6 +21,7 @@ stale_after: 2027-04-10T00:00:00+00:00
 A local repository stores and manages the artifacts your organization uploads or creates internally, often called first-party artifacts. It gives you a central location for your internal binaries.[^docs-local]
 
 ```mermaid
+%%{init: {'theme':'base','themeVariables':{'primaryColor':'#FFE0B2','primaryBorderColor':'#FF8A00','primaryTextColor':'#2B1B00','lineColor':'#7C4DFF','secondaryColor':'#E1BEE7','tertiaryColor':'#FFF3E0','noteBkgColor':'#E1BEE7','noteTextColor':'#2A0A3A','noteBorderColor':'#7C4DFF'}}}%%
 flowchart LR
     CI["Your builds"] -->|"deploy"| L[("Local repository<br/>payments-maven-dev-local")]
     U["Manual uploads"] -->|"deploy"| L

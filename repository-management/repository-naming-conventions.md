@@ -29,6 +29,7 @@ stale_after: 2027-04-10T00:00:00+00:00
 A consistent naming scheme makes repositories predictable and gives each team a clear boundary. JFrog recommends a four-part structure and adapts it per repository type.
 
 ```mermaid
+%%{init: {'theme':'base','themeVariables':{'primaryColor':'#FFE0B2','primaryBorderColor':'#FF8A00','primaryTextColor':'#2B1B00','lineColor':'#7C4DFF','secondaryColor':'#E1BEE7','tertiaryColor':'#FFF3E0','noteBkgColor':'#E1BEE7','noteTextColor':'#2A0A3A','noteBorderColor':'#7C4DFF'}}}%%
 flowchart LR
     K["payments-maven-dev-local"] --> A["payments<br/>team"]
     K --> B["maven<br/>tech"]

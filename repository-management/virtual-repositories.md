@@ -21,6 +21,7 @@ stale_after: 2027-04-10T00:00:00+00:00
 A virtual repository is a collection of local, remote and other virtual repositories of the same package type, accessed through a single logical URL.[^docs-virtual]
 
 ```mermaid
+%%{init: {'theme':'base','themeVariables':{'primaryColor':'#FFE0B2','primaryBorderColor':'#FF8A00','primaryTextColor':'#2B1B00','lineColor':'#7C4DFF','secondaryColor':'#E1BEE7','tertiaryColor':'#FFF3E0','noteBkgColor':'#E1BEE7','noteTextColor':'#2A0A3A','noteBorderColor':'#7C4DFF'}}}%%
 flowchart LR
     T["Developer tools<br/>e.g. Maven settings.xml"] --> V{{"Virtual repository<br/>payments-maven-dev"}}
     V -->|"1. first"| L[("Local repositories<br/>fastest, internal builds")]

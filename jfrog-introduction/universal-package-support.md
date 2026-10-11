@@ -16,6 +16,7 @@ stale_after: 2027-04-10T00:00:00+00:00
 Artifactory handles over 40 types of packages. A team therefore does not need a different solution for each technology or tool: everything is managed in one system.
 
 ```mermaid
+%%{init: {'theme':'base','themeVariables':{'primaryColor':'#B9F6CA','primaryBorderColor':'#00C853','primaryTextColor':'#06210F','lineColor':'#00B8D4','secondaryColor':'#B3E5FC','tertiaryColor':'#E8F5E9','noteBkgColor':'#FFE57F','noteTextColor':'#2B1B00','noteBorderColor':'#FFAB00'}}}%%
 flowchart LR
     T1["Docker"] --> AF
     T2["npm"] --> AF

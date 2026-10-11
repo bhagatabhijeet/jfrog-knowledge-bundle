@@ -21,6 +21,7 @@ stale_after: 2027-04-10T00:00:00+00:00
 In Artifactory, a repository is a place to organize artifacts into a cohesive group by application and project. Artifactory hosts four repository types.[^docs-repo-mgmt]
 
 ```mermaid
+%%{init: {'theme':'base','themeVariables':{'primaryColor':'#FFE0B2','primaryBorderColor':'#FF8A00','primaryTextColor':'#2B1B00','lineColor':'#7C4DFF','secondaryColor':'#E1BEE7','tertiaryColor':'#FFF3E0','noteBkgColor':'#E1BEE7','noteTextColor':'#2A0A3A','noteBorderColor':'#7C4DFF'}}}%%
 flowchart LR
     DEV["Developers and CI"] --> V{{"Virtual repository<br/>one URL"}}
     V -->|"1. look here first"| L[("Local repository<br/>what you build")]

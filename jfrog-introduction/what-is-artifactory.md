@@ -18,6 +18,7 @@ JFrog Artifactory gives a team one organized place to store and manage all of it
 ![Artifactory pictured as a single connected campus](/assets/images/jfrog-introduction/one-organized-place.png)
 
 ```mermaid
+%%{init: {'theme':'base','themeVariables':{'primaryColor':'#B9F6CA','primaryBorderColor':'#00C853','primaryTextColor':'#06210F','lineColor':'#00B8D4','secondaryColor':'#B3E5FC','tertiaryColor':'#E8F5E9','noteBkgColor':'#FFE57F','noteTextColor':'#2B1B00','noteBorderColor':'#FFAB00'}}}%%
 flowchart LR
     D["Developers"] --> CI["Build"]
     CI -->|"every build uploaded"| AF[("JFrog Artifactory")]

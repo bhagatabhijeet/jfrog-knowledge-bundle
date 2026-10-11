@@ -18,6 +18,7 @@ Build once, promote everywhere is the release approach Artifactory is built arou
 ![Identical packages loaded onto trains at an export dock](/assets/images/jfrog-introduction/build-once-promote-everywhere.png)
 
 ```mermaid
+%%{init: {'theme':'base','themeVariables':{'primaryColor':'#B9F6CA','primaryBorderColor':'#00C853','primaryTextColor':'#06210F','lineColor':'#00B8D4','secondaryColor':'#B3E5FC','tertiaryColor':'#E8F5E9','noteBkgColor':'#FFE57F','noteTextColor':'#2B1B00','noteBorderColor':'#FFAB00'}}}%%
 flowchart LR
     B["Build once"] --> R1[("Repository 1<br/>e.g. dev")]
     R1 -->|"promote"| R2[("Repository 2<br/>e.g. qa")]

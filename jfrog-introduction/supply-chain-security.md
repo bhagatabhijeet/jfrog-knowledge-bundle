@@ -18,6 +18,7 @@ Artifactory lays the foundation for a company's software supply chain security. 
 ![A package passing a scanner with a green check](/assets/images/jfrog-introduction/xray-scan-pass.png)
 
 ```mermaid
+%%{init: {'theme':'base','themeVariables':{'primaryColor':'#B9F6CA','primaryBorderColor':'#00C853','primaryTextColor':'#06210F','lineColor':'#00B8D4','secondaryColor':'#B3E5FC','tertiaryColor':'#E8F5E9','noteBkgColor':'#FFE57F','noteTextColor':'#2B1B00','noteBorderColor':'#FFAB00'}}}%%
 flowchart LR
     B["Every build"] --> AF[("Artifactory")]
     AF --> X["Xray captures<br/>build metadata"]

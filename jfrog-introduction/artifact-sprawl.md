@@ -18,6 +18,7 @@ Software delivery succeeds when it gets faster, more secure and higher in qualit
 ![A team holding puzzle pieces for different package technologies](/assets/images/jfrog-introduction/tangle-of-technologies.png)
 
 ```mermaid
+%%{init: {'theme':'base','themeVariables':{'primaryColor':'#B9F6CA','primaryBorderColor':'#00C853','primaryTextColor':'#06210F','lineColor':'#00B8D4','secondaryColor':'#B3E5FC','tertiaryColor':'#E8F5E9','noteBkgColor':'#FFE57F','noteTextColor':'#2B1B00','noteBorderColor':'#FFAB00'}}}%%
 flowchart LR
     G["Team grows:<br/>more services, sites and tools"] --> A["Many kinds of artifacts,<br/>built more often"]
     A --> L["Laptops"]

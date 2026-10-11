@@ -16,6 +16,7 @@ stale_after: 2027-04-10T00:00:00+00:00
 Artifactory supports geographically distributed teams in two ways: a choice of installation models, and the ability to federate artifacts across multiple sites.
 
 ```mermaid
+%%{init: {'theme':'base','themeVariables':{'primaryColor':'#B9F6CA','primaryBorderColor':'#00C853','primaryTextColor':'#06210F','lineColor':'#00B8D4','secondaryColor':'#B3E5FC','tertiaryColor':'#E8F5E9','noteBkgColor':'#FFE57F','noteTextColor':'#2B1B00','noteBorderColor':'#FFAB00'}}}%%
 flowchart LR
     S1[("Site A<br/>self-hosted")] <-->|"federated"| S2[("Site B<br/>cloud")]
     S2 <-->|"federated"| S3[("Site C<br/>another cloud")]
