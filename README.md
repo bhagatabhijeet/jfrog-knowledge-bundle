@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="assets/readme/cover.svg" alt="JFrog Knowledge Bundle, issue 01. Read it in minutes. Hand it to your AI agents. 14 concepts, 16 diagrams, 2 topics." width="100%"/>
+<img src="assets/readme/cover.svg" alt="JFrog Knowledge Bundle. Read it in minutes. Hand it to your AI agents." width="100%"/>
 
 <br/><br/>
 
@@ -13,9 +13,6 @@
 
 [![OKF v0.2](https://img.shields.io/badge/OKF-v0.2-4285F4?style=flat-square)](https://github.com/GoogleCloudPlatform/knowledge-catalog/blob/main/okf/SPEC.md)
 [![License CC0](https://img.shields.io/badge/License-CC0_1.0-40BE46?style=flat-square)](LICENSE)
-[![Topics](https://img.shields.io/badge/Topics-2-00B8D4?style=flat-square)](index.md)
-[![Concepts](https://img.shields.io/badge/Concepts-14-00C853?style=flat-square)](index.md)
-[![Diagrams](https://img.shields.io/badge/Diagrams-16-FFAB00?style=flat-square)](#-the-learning-path)
 [![PRs welcome](https://img.shields.io/badge/PRs-welcome-8A2BE2?style=flat-square)](#-contribute)
 
 </div>
@@ -274,11 +271,11 @@ What an agent gets from the format:
 
 | Chapter | Status |
 |---|---|
-| 📗 [JFrog Introduction](jfrog-introduction/index.md) | 🚧 Draft: 8 concepts, awaiting human review |
-| 📙 [Repository Management](repository-management/index.md) | 🚧 Draft: 6 concepts, awaiting human review |
+| 📗 [JFrog Introduction](jfrog-introduction/index.md) | 🚧 Draft, awaiting human review |
+| 📙 [Repository Management](repository-management/index.md) | 🚧 Draft, awaiting human review |
 | 📘 More topics | ⏳ Coming, one chapter at a time |
 
-Watch or star the repository to catch the next issue.
+Watch or star the repository to catch each new chapter.
 
 ## 🤝 Contribute
 
@@ -309,7 +306,7 @@ The images in `assets/images/` are not covered by the CC0 licence. They remain t
 
 <div align="center">
 
-<img src="assets/readme/back-cover.svg" alt="Star it. Fork it. Teach with it. Next issue: more topics, same format." width="100%"/>
+<img src="assets/readme/back-cover.svg" alt="Star it. Fork it. Teach with it. More topics on the way, same format." width="100%"/>
 
 <sub>This is an independent community project. It is not affiliated with or endorsed by JFrog Ltd.<br/>
 JFrog and Artifactory are trademarks of JFrog Ltd.</sub>

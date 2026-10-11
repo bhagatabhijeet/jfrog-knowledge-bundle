@@ -4,5 +4,5 @@
 <circle cx="1080" cy="30" r="140" fill="#FFFFFF" opacity=".08"/><circle cx="120" cy="190" r="120" fill="#00E5FF" opacity=".12"/>
 <g opacity="1"><polygon points="150,62 175.98,77.0 150,92 124.02,77.0" fill="#B9F6CA"/><polygon points="124.02,77.0 150,92 150,122 124.02,107.0" fill="#00C853"/><polygon points="175.98,77.0 150,92 150,122 175.98,107.0" fill="#009624"/></g><g opacity="1"><polygon points="1050,74 1075.98,89.0 1050,104 1024.02,89.0" fill="#EA80FC"/><polygon points="1024.02,89.0 1050,104 1050,134 1024.02,119.0" fill="#AA00FF"/><polygon points="1075.98,89.0 1050,104 1050,134 1075.98,119.0" fill="#7200CA"/></g>
 <text x="600" y="96" text-anchor="middle" font-family="Segoe UI, Helvetica Neue, Helvetica, Arial, sans-serif" font-size="50" font-weight="900" fill="#FFFFFF">Star it. Fork it. Teach with it.</text>
-<text x="600" y="142" text-anchor="middle" font-family="Segoe UI, Helvetica Neue, Helvetica, Arial, sans-serif" font-size="20" font-weight="700" letter-spacing="4" fill="#FFE14D">NEXT ISSUE: MORE TOPICS, SAME FORMAT</text>
+<text x="600" y="142" text-anchor="middle" font-family="Segoe UI, Helvetica Neue, Helvetica, Arial, sans-serif" font-size="20" font-weight="700" letter-spacing="4" fill="#FFE14D">MORE TOPICS ON THE WAY, SAME FORMAT</text>
 </svg>
