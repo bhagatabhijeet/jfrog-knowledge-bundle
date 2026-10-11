@@ -1,6 +1,9 @@
 # Bundle Update Log
 
 ## 2026-10-11
+* **Creation**: Added [Why not Git for artifacts? Why Artifactory?](jfrog-introduction/why-not-git-for-artifacts.md) to JFrog Introduction, with an infographic.
+* **Creation**: Added [What is an artifact repository?](jfrog-introduction/what-is-an-artifact-repository.md) to JFrog Introduction, with an infographic.
+* **Update**: Added a worked code-to-artifact example with an infographic to [What is an artifact?](jfrog-introduction/what-is-an-artifact.md).
 * **Creation**: Added [What is an artifact?](jfrog-introduction/what-is-an-artifact.md) as the opening concept of JFrog Introduction.
 * **Update**: Gave every concept diagram a colour theme, one palette per topic.
 * **Update**: Redesigned the README as a magazine-style cover, with artwork in `assets/readme/`, and added `CITATION.cff` for optional credit.

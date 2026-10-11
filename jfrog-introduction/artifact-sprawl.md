@@ -70,4 +70,4 @@ With no single home for them, these artifacts pile up wherever they were last us
 
 ---
 
-⬅️ [What is an artifact?](/jfrog-introduction/what-is-an-artifact.md) · 📚 [Topic index](/jfrog-introduction/index.md) · [What JFrog Artifactory is](/jfrog-introduction/what-is-artifactory.md) ➡️
+⬅️ [What is an artifact repository?](/jfrog-introduction/what-is-an-artifact-repository.md) · 📚 [Topic index](/jfrog-introduction/index.md) · [Why not Git for artifacts? Why Artifactory?](/jfrog-introduction/why-not-git-for-artifacts.md) ➡️

@@ -1,7 +1,9 @@
 # Start here
 
 * [What is an artifact?](what-is-an-artifact.md) - An artifact is the ready-to-deploy file a build produces; here is what it contains and what it looks like in each ecosystem.
+* [What is an artifact repository?](what-is-an-artifact-repository.md) - An artifact repository is a server that keeps multiple versions of your artifacts; here is what it does and why teams rely on one.
 * [Artifact sprawl: the problem Artifactory solves](artifact-sprawl.md) - How a growing software team loses track of its binaries, and what that costs.
+* [Why not Git for artifacts? Why Artifactory?](why-not-git-for-artifacts.md) - Why a version control system is the wrong place to keep build artifacts, and what an artifact repository manager like Artifactory does that Git cannot.
 * [What JFrog Artifactory is](what-is-artifactory.md) - Artifactory as the one organized place where a team stores, manages and traces every artifact it builds.
 
 # Capabilities
