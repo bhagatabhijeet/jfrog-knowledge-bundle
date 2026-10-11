@@ -40,6 +40,26 @@ flowchart LR
 
 Put together, the artifact is one self-contained, versioned file that can be handed to any environment and run.
 
+# A worked example: from code to artifact
+
+![From source code to artifact in four ecosystems: Java, Node.js, Python and .NET each go through write, build and binary, and every binary lands in an artifact repository](/assets/images/jfrog-introduction/code-to-artifact.svg)
+
+The story is the same in every language:
+
+1. ✍️ **Write.** A developer writes source code in a language such as Node.js, Python, Java or .NET.
+2. ⚙️ **Build.** The developer runs that language's build tool, such as Maven, Gradle or MSBuild. The tool compiles the code together with its dependencies.
+3. 📦 **Get a binary.** The build produces a binary. **That binary is the artifact.**
+
+| Language | Build tool | Example command | Artifact |
+|---|---|---|---|
+| ☕ Java | Maven, Gradle | `mvn package` | `.jar`, `.war`, `.ear` |
+| 🟩 Node.js | npm | `npm pack` | `.tar.gz` |
+| 🐍 Python | build, setuptools | `python -m build` | `.whl`, `.tar.gz` |
+| 🟦 .NET | MSBuild | `dotnet build` | `.dll` |
+
+> [!IMPORTANT]
+> The language and the tool change. The pattern never does: **source code + dependencies → build tool → artifact.**
+
 # Spot the artifact
 
 Every ecosystem has its own artifact formats. If you have built software, you have already produced one.
@@ -77,6 +97,7 @@ In the wider sense, artifacts are everything produced during the software develo
 
 # Related
 
+- [What is an artifact repository?](/jfrog-introduction/what-is-an-artifact-repository.md) - the server that keeps every version.
 - [Artifact sprawl: the problem Artifactory solves](/jfrog-introduction/artifact-sprawl.md) - what happens when artifacts have no home.
 - [What JFrog Artifactory is](/jfrog-introduction/what-is-artifactory.md) - the home.
 - [Build once, promote everywhere](/jfrog-introduction/build-once-promote-everywhere.md) - why an artifact is never rebuilt.
@@ -85,4 +106,4 @@ In the wider sense, artifacts are everything produced during the software develo
 
 ---
 
-📚 [Topic index](/jfrog-introduction/index.md) · [Artifact sprawl: the problem Artifactory solves](/jfrog-introduction/artifact-sprawl.md) ➡️
+📚 [Topic index](/jfrog-introduction/index.md) · [What is an artifact repository?](/jfrog-introduction/what-is-an-artifact-repository.md) ➡️
