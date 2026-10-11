@@ -1,5 +1,6 @@
 # Start here
 
+* [What is an artifact?](what-is-an-artifact.md) - An artifact is the ready-to-deploy file a build produces; here is what it contains and what it looks like in each ecosystem.
 * [Artifact sprawl: the problem Artifactory solves](artifact-sprawl.md) - How a growing software team loses track of its binaries, and what that costs.
 * [What JFrog Artifactory is](what-is-artifactory.md) - Artifactory as the one organized place where a team stores, manages and traces every artifact it builds.
 

@@ -1,6 +1,7 @@
 # Bundle Update Log
 
 ## 2026-10-11
+* **Creation**: Added [What is an artifact?](jfrog-introduction/what-is-an-artifact.md) as the opening concept of JFrog Introduction.
 * **Update**: Gave every concept diagram a colour theme, one palette per topic.
 * **Update**: Redesigned the README as a magazine-style cover, with artwork in `assets/readme/`, and added `CITATION.cff` for optional credit.
 * **Update**: Added a one-line takeaway, a diagram and previous/next navigation to every concept.

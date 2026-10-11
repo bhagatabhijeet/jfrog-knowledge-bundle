@@ -13,7 +13,7 @@ stale_after: 2027-04-10T00:00:00+00:00
 > [!TIP]
 > **In one line:** Without one home for its build outputs, a growing team loses track of what it built and what it shipped.
 
-Software delivery succeeds when it gets faster, more secure and higher in quality at the same time. What gets in the way is the sheer number of artifacts, libraries, packages and dependencies a team has to manage, across many languages and tools, while still being sure each one is authentic and intact.
+Software delivery succeeds when it gets faster, more secure and higher in quality at the same time. What gets in the way is the sheer number of [artifacts](/jfrog-introduction/what-is-an-artifact.md), libraries, packages and dependencies a team has to manage, across many languages and tools, while still being sure each one is authentic and intact.
 
 ![A team holding puzzle pieces for different package technologies](/assets/images/jfrog-introduction/tangle-of-technologies.png)
 
@@ -70,4 +70,4 @@ With no single home for them, these artifacts pile up wherever they were last us
 
 ---
 
-📚 [Topic index](/jfrog-introduction/index.md) · [What JFrog Artifactory is](/jfrog-introduction/what-is-artifactory.md) ➡️
+⬅️ [What is an artifact?](/jfrog-introduction/what-is-an-artifact.md) · 📚 [Topic index](/jfrog-introduction/index.md) · [What JFrog Artifactory is](/jfrog-introduction/what-is-artifactory.md) ➡️

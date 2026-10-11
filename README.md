@@ -31,14 +31,15 @@
 
 | | Concept |
 |:-:|---|
-| **01** | [Artifact sprawl: the problem](jfrog-introduction/artifact-sprawl.md) |
-| **02** | [What JFrog Artifactory is](jfrog-introduction/what-is-artifactory.md) |
-| **03** | [Build once, promote everywhere](jfrog-introduction/build-once-promote-everywhere.md) |
-| **04** | [Universal package support](jfrog-introduction/universal-package-support.md) |
-| **05** | [Remote repositories: proxy and cache](jfrog-introduction/remote-repositories.md) |
-| **06** | [Deployment options and federation](jfrog-introduction/deployment-and-federation.md) |
-| **07** | [Supply chain security: Xray and the SBOM](jfrog-introduction/supply-chain-security.md) |
-| **08** | [Access management](jfrog-introduction/access-management.md) |
+| **01** | [What is an artifact?](jfrog-introduction/what-is-an-artifact.md) |
+| **02** | [Artifact sprawl: the problem](jfrog-introduction/artifact-sprawl.md) |
+| **03** | [What JFrog Artifactory is](jfrog-introduction/what-is-artifactory.md) |
+| **04** | [Build once, promote everywhere](jfrog-introduction/build-once-promote-everywhere.md) |
+| **05** | [Universal package support](jfrog-introduction/universal-package-support.md) |
+| **06** | [Remote repositories: proxy and cache](jfrog-introduction/remote-repositories.md) |
+| **07** | [Deployment options and federation](jfrog-introduction/deployment-and-federation.md) |
+| **08** | [Supply chain security: Xray and the SBOM](jfrog-introduction/supply-chain-security.md) |
+| **09** | [Access management](jfrog-introduction/access-management.md) |
 
 </td>
 <td width="50%" valign="top">
@@ -47,16 +48,16 @@
 
 | | Concept |
 |:-:|---|
-| **09** | [Repository types in Artifactory](repository-management/repository-types.md) |
-| **10** | [Local repositories](repository-management/local-repositories.md) |
-| **11** | [Remote repositories](repository-management/remote-repositories.md) |
-| **12** | [Smart Remote repositories](repository-management/smart-remote-repositories.md) |
-| **13** | [Virtual repositories](repository-management/virtual-repositories.md) |
-| **14** | [Repository naming conventions](repository-management/repository-naming-conventions.md) |
+| **10** | [Repository types in Artifactory](repository-management/repository-types.md) |
+| **11** | [Local repositories](repository-management/local-repositories.md) |
+| **12** | [Remote repositories](repository-management/remote-repositories.md) |
+| **13** | [Smart Remote repositories](repository-management/smart-remote-repositories.md) |
+| **14** | [Virtual repositories](repository-management/virtual-repositories.md) |
+| **15** | [Repository naming conventions](repository-management/repository-naming-conventions.md) |
 
 🟢 **New here?** Start at **01** and follow the *next* link at the foot of each page.
 
-🟣 **Know the basics?** Jump straight to **09**.
+🟣 **Know the basics?** Jump straight to **10**.
 
 </td>
 </tr>
