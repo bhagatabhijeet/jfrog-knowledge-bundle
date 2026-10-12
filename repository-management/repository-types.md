@@ -122,4 +122,4 @@ With an Enterprise+ subscription and JFrog Distribution, there are also Release 
 
 ---
 
-📚 [Topic index](/repository-management/index.md) · [Local repositories](/repository-management/local-repositories.md) ➡️
+⏮️ [Previous chapter: Finding your way around](/platform-navigation/index.md) · 📚 [Chapter 03 index](/repository-management/index.md) · [Local repositories](/repository-management/local-repositories.md) ➡️

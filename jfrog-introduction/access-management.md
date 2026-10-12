@@ -57,4 +57,4 @@ The three identities are JFrog's. The descriptions are a plain-language guide.
 
 ---
 
-⬅️ [Software supply chain security: Xray, build metadata and the SBOM](/jfrog-introduction/supply-chain-security.md) · 📚 [Topic index](/jfrog-introduction/index.md)
+⬅️ [Software supply chain security: Xray, build metadata and the SBOM](/jfrog-introduction/supply-chain-security.md) · 📚 [Chapter 01 index](/jfrog-introduction/index.md) · [Next chapter: Finding your way around](/platform-navigation/index.md) ⏭️

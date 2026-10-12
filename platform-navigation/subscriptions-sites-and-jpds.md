@@ -96,4 +96,4 @@ flowchart TD
 
 ---
 
-⬅️ [The top bar, decoded](/platform-navigation/the-top-bar.md) · 📚 [Topic index](/platform-navigation/index.md) · [The launcher](/platform-navigation/the-launcher.md) ➡️
+⬅️ [The top bar, decoded](/platform-navigation/the-top-bar.md) · 📚 [Chapter 02 index](/platform-navigation/index.md) · [The launcher: moving between sites and subscriptions](/platform-navigation/the-launcher.md) ➡️

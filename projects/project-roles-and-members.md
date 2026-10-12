@@ -144,4 +144,4 @@ From Artifactory 7.146.0, the create/update and delete permissions can be grante
 
 ---
 
-⬅️ [What is a JFrog Project?](/projects/what-is-a-project.md) · 📚 [Topic index](/projects/index.md) · [Project resources, environments and quotas](/projects/project-resources.md) ➡️
+⬅️ [What is a JFrog Project?](/projects/what-is-a-project.md) · 📚 [Chapter 04 index](/projects/index.md) · [Project resources, environments and quotas](/projects/project-resources.md) ➡️

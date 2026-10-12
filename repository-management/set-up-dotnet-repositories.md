@@ -189,4 +189,4 @@ You get a local, a remote and a virtual repository, ready to connect. Do the man
 
 ---
 
-⬅️ [Why the package type matters](/repository-management/why-package-type-matters.md) · 📚 [Topic index](/repository-management/index.md)
+⬅️ [Repository naming conventions](/repository-management/repository-naming-conventions.md) · 📚 [Chapter 03 index](/repository-management/index.md) · [Next chapter: Projects](/projects/index.md) ⏭️

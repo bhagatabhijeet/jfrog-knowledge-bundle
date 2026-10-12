@@ -104,4 +104,4 @@ Pointing a remote repository at a third-party product that itself relies on Arti
 
 ---
 
-⬅️ [Local repositories](/repository-management/local-repositories.md) · 📚 [Topic index](/repository-management/index.md) · [Smart Remote repositories](/repository-management/smart-remote-repositories.md) ➡️
+⬅️ [Local repositories](/repository-management/local-repositories.md) · 📚 [Chapter 03 index](/repository-management/index.md) · [Virtual repositories](/repository-management/virtual-repositories.md) ➡️

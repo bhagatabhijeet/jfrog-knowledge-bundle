@@ -71,4 +71,4 @@ https://<jfrog_platform_url>/artifactory/api/<package_type>/<repository_key>
 
 ---
 
-⬅️ [Remote repositories](/repository-management/remote-repositories.md) · 📚 [Topic index](/repository-management/index.md) · [Virtual repositories](/repository-management/virtual-repositories.md) ➡️
+⬅️ [Virtual repositories](/repository-management/virtual-repositories.md) · 📚 [Chapter 03 index](/repository-management/index.md) · [Why the package type matters](/repository-management/why-package-type-matters.md) ➡️

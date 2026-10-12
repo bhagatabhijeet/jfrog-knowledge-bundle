@@ -180,4 +180,4 @@ Artifacts uploaded before SHA-256 support may lack a SHA-256 value until the dat
 
 ---
 
-⬅️ [Artifactory editions: Open Source and SaaS](/jfrog-introduction/artifactory-editions.md) · 📚 [Topic index](/jfrog-introduction/index.md) · [Build once, promote everywhere](/jfrog-introduction/build-once-promote-everywhere.md) ➡️
+⬅️ [Build once, promote everywhere](/jfrog-introduction/build-once-promote-everywhere.md) · 📚 [Chapter 01 index](/jfrog-introduction/index.md) · [Deployment options and federation](/jfrog-introduction/deployment-and-federation.md) ➡️

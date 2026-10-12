@@ -140,4 +140,4 @@ One exception: project-aware repository sharing is on a gradual rollout for SaaS
 
 ---
 
-📚 [Topic index](/projects/index.md) · [Project roles and members](/projects/project-roles-and-members.md) ➡️
+⏮️ [Previous chapter: Repository Management](/repository-management/index.md) · 📚 [Chapter 04 index](/projects/index.md) · [Project roles and members](/projects/project-roles-and-members.md) ➡️

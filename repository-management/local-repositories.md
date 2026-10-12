@@ -91,4 +91,4 @@ In the **Administration** module, select **Repositories**, click **Create a Repo
 
 ---
 
-⬅️ [Repository types in Artifactory](/repository-management/repository-types.md) · 📚 [Topic index](/repository-management/index.md) · [Remote repositories](/repository-management/remote-repositories.md) ➡️
+⬅️ [Repository types in Artifactory](/repository-management/repository-types.md) · 📚 [Chapter 03 index](/repository-management/index.md) · [Remote repositories](/repository-management/remote-repositories.md) ➡️

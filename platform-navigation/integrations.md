@@ -217,4 +217,4 @@ There are two places with this name, in the two different menus.
 
 ---
 
-⬅️ [A tour of the left menu: what JFrog can do](/platform-navigation/the-left-menu.md) · 📚 [Topic index](/platform-navigation/index.md) · [MyJFrog: the account portal](/platform-navigation/myjfrog-portal.md) ➡️
+⬅️ [A tour of the left menu: what JFrog can do](/platform-navigation/the-left-menu.md) · 📚 [Chapter 02 index](/platform-navigation/index.md) · [Next chapter: Repository Management](/repository-management/index.md) ⏭️

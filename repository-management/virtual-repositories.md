@@ -183,4 +183,4 @@ One exception on package type: a virtual repository of type **Generic** can aggr
 
 ---
 
-⬅️ [Smart Remote repositories](/repository-management/smart-remote-repositories.md) · 📚 [Topic index](/repository-management/index.md) · [Repository naming conventions](/repository-management/repository-naming-conventions.md) ➡️
+⬅️ [Remote repositories](/repository-management/remote-repositories.md) · 📚 [Chapter 03 index](/repository-management/index.md) · [Smart Remote repositories](/repository-management/smart-remote-repositories.md) ➡️

@@ -2,7 +2,7 @@
 
 * [Packages, Builds, Artifacts: which is which?](three-windows.md) - The three Artifactory views compared - Packages is a catalog, Builds is a logbook, Artifacts is a file explorer - and how to choose between them.
 
-# The three views
+# The views
 
 * [Packages: the catalog of everything you hold](packages.md) - What the Packages view does, what it contains and how to use it - filtering, saved views, package details, versions, install commands and the information tabs.
 * [Builds: the logbook of your CI](builds.md) - What the Builds view does and what a build-info record contains - produced artifacts, consumed dependencies, source and environment - plus how builds are published, inspected and promoted.

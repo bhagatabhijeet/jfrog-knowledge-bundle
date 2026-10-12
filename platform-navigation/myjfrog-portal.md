@@ -93,4 +93,4 @@ JFrog lists five jobs for the portal.[^docs-myjfrog]
 
 ---
 
-⬅️ [Integrations: connecting JFrog to your tools](/platform-navigation/integrations.md) · 📚 [Topic index](/platform-navigation/index.md)
+⬅️ [The launcher: moving between sites and subscriptions](/platform-navigation/the-launcher.md) · 📚 [Chapter 02 index](/platform-navigation/index.md) · [Platform or Administration?](/platform-navigation/platform-and-administration.md) ➡️

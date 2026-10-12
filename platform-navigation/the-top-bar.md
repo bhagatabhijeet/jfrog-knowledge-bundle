@@ -90,4 +90,4 @@ What appears on your screen can vary with three things.[^docs-working]
 
 ---
 
-⬅️ [Intro to Artifactory SaaS](/platform-navigation/intro-to-artifactory-saas.md) · 📚 [Topic index](/platform-navigation/index.md) · [Subscriptions, sites and JPDs](/platform-navigation/subscriptions-sites-and-jpds.md) ➡️
+⬅️ [Intro to Artifactory SaaS](/platform-navigation/intro-to-artifactory-saas.md) · 📚 [Chapter 02 index](/platform-navigation/index.md) · [Subscriptions, sites and JPDs](/platform-navigation/subscriptions-sites-and-jpds.md) ➡️

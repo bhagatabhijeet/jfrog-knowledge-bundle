@@ -64,4 +64,4 @@ Artifacts can be federated across multiple sites, so teams in different location
 
 ---
 
-⬅️ [Remote repositories: proxying and caching open source dependencies](/jfrog-introduction/remote-repositories.md) · 📚 [Topic index](/jfrog-introduction/index.md) · [Software supply chain security: Xray, build metadata and the SBOM](/jfrog-introduction/supply-chain-security.md) ➡️
+⬅️ [Checksum-based storage: how Artifactory keeps binaries](/jfrog-introduction/checksum-based-storage.md) · 📚 [Chapter 01 index](/jfrog-introduction/index.md) · [Software supply chain security: Xray, build metadata and the SBOM](/jfrog-introduction/supply-chain-security.md) ➡️

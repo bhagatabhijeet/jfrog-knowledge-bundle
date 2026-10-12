@@ -84,4 +84,4 @@ flowchart LR
 
 ---
 
-⬅️ [Artifact sprawl: the problem Artifactory solves](/jfrog-introduction/artifact-sprawl.md) · 📚 [Topic index](/jfrog-introduction/index.md) · [What JFrog Artifactory is](/jfrog-introduction/what-is-artifactory.md) ➡️
+⬅️ [Artifact sprawl: the problem Artifactory solves](/jfrog-introduction/artifact-sprawl.md) · 📚 [Chapter 01 index](/jfrog-introduction/index.md) · [What JFrog Artifactory is](/jfrog-introduction/what-is-artifactory.md) ➡️

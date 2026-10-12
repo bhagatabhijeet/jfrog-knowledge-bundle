@@ -240,4 +240,4 @@ The endpoint is from JFrog's documentation. The request body shown is a typical 
 
 ---
 
-⬅️ [Project resources, environments and quotas](/projects/project-resources.md) · 📚 [Topic index](/projects/index.md)
+⬅️ [Project resources, environments and quotas](/projects/project-resources.md) · 📚 [Chapter 04 index](/projects/index.md) · [Next chapter: Packages, Builds, Artifacts](/artifactory-views/index.md) ⏭️

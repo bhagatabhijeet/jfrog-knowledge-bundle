@@ -60,4 +60,4 @@ sequenceDiagram
 
 ---
 
-⬅️ [Universal package support and the single source of truth](/jfrog-introduction/universal-package-support.md) · 📚 [Topic index](/jfrog-introduction/index.md) · [Deployment options and federation](/jfrog-introduction/deployment-and-federation.md) ➡️
+⬅️ [Universal package support and the single source of truth](/jfrog-introduction/universal-package-support.md) · 📚 [Chapter 01 index](/jfrog-introduction/index.md) · [Build once, promote everywhere](/jfrog-introduction/build-once-promote-everywhere.md) ➡️

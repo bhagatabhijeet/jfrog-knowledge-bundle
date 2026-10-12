@@ -197,4 +197,4 @@ Neither view could answer all five on its own.
 
 ---
 
-⬅️ [Builds: the logbook of your CI](/artifactory-views/builds.md) · 📚 [Topic index](/artifactory-views/index.md) · [Artifacts: the file explorer](/artifactory-views/artifacts.md) ➡️
+⬅️ [Builds: the logbook of your CI](/artifactory-views/builds.md) · 📚 [Chapter 05 index](/artifactory-views/index.md) · [Artifacts: the file explorer](/artifactory-views/artifacts.md) ➡️

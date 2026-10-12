@@ -86,4 +86,4 @@ The habits are practical advice, not JFrog requirements.
 
 ---
 
-⬅️ [Subscriptions, sites and JPDs](/platform-navigation/subscriptions-sites-and-jpds.md) · 📚 [Topic index](/platform-navigation/index.md) · [Platform or Administration?](/platform-navigation/platform-and-administration.md) ➡️
+⬅️ [Subscriptions, sites and JPDs](/platform-navigation/subscriptions-sites-and-jpds.md) · 📚 [Chapter 02 index](/platform-navigation/index.md) · [MyJFrog: the account portal](/platform-navigation/myjfrog-portal.md) ➡️

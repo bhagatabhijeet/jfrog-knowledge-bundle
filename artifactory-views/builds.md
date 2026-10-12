@@ -186,4 +186,4 @@ This table follows JFrog's troubleshooting guidance.[^docs-inspect]
 
 ---
 
-⬅️ [Packages](/artifactory-views/packages.md) · 📚 [Topic index](/artifactory-views/index.md) · [Packages vs Builds: the difference](/artifactory-views/packages-vs-builds.md) ➡️
+⬅️ [Packages: the catalog of everything you hold](/artifactory-views/packages.md) · 📚 [Chapter 05 index](/artifactory-views/index.md) · [Packages vs Builds: the difference](/artifactory-views/packages-vs-builds.md) ➡️

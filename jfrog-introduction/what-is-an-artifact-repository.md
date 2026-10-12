@@ -89,4 +89,4 @@ These are JFrog's recommended practices for managing an artifact repository.[^jf
 
 ---
 
-⬅️ [What is an artifact?](/jfrog-introduction/what-is-an-artifact.md) · 📚 [Topic index](/jfrog-introduction/index.md) · [Artifact sprawl: the problem Artifactory solves](/jfrog-introduction/artifact-sprawl.md) ➡️
+⬅️ [What is an artifact?](/jfrog-introduction/what-is-an-artifact.md) · 📚 [Chapter 01 index](/jfrog-introduction/index.md) · [Artifact sprawl: the problem Artifactory solves](/jfrog-introduction/artifact-sprawl.md) ➡️

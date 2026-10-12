@@ -171,4 +171,4 @@ The reasons are practical guidance; only the filter indicator is from JFrog's do
 
 ---
 
-⬅️ [Packages, Builds, Artifacts: which is which?](/artifactory-views/three-windows.md) · 📚 [Topic index](/artifactory-views/index.md) · [Builds](/artifactory-views/builds.md) ➡️
+⬅️ [Packages, Builds, Artifacts: which is which?](/artifactory-views/three-windows.md) · 📚 [Chapter 05 index](/artifactory-views/index.md) · [Builds: the logbook of your CI](/artifactory-views/builds.md) ➡️

@@ -73,4 +73,4 @@ The repository names follow the [naming conventions](/repository-management/repo
 
 ---
 
-⬅️ [Checksum-based storage: how Artifactory keeps binaries](/jfrog-introduction/checksum-based-storage.md) · 📚 [Topic index](/jfrog-introduction/index.md) · [Universal package support and the single source of truth](/jfrog-introduction/universal-package-support.md) ➡️
+⬅️ [Remote repositories: proxying and caching open source dependencies](/jfrog-introduction/remote-repositories.md) · 📚 [Chapter 01 index](/jfrog-introduction/index.md) · [Checksum-based storage: how Artifactory keeps binaries](/jfrog-introduction/checksum-based-storage.md) ➡️

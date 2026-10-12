@@ -119,4 +119,4 @@ These are typical reasons. Check with your administrators which applies.
 
 ---
 
-⬅️ [Repository naming conventions](/repository-management/repository-naming-conventions.md) · 📚 [Topic index](/repository-management/index.md) · [Walkthrough: set up .NET repositories](/repository-management/set-up-dotnet-repositories.md) ➡️
+⬅️ [Smart Remote repositories](/repository-management/smart-remote-repositories.md) · 📚 [Chapter 03 index](/repository-management/index.md) · [Repository naming conventions](/repository-management/repository-naming-conventions.md) ➡️

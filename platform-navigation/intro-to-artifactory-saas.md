@@ -144,4 +144,4 @@ Some organizations combine the two in a hybrid setup, for example to meet regula
 
 ---
 
-📚 [Topic index](/platform-navigation/index.md) · [The top bar, decoded](/platform-navigation/the-top-bar.md) ➡️
+⏮️ [Previous chapter: JFrog Introduction](/jfrog-introduction/index.md) · 📚 [Chapter 02 index](/platform-navigation/index.md) · [The top bar, decoded](/platform-navigation/the-top-bar.md) ➡️

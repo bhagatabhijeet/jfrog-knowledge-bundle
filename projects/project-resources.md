@@ -133,4 +133,4 @@ JFrog recommends project-aware sharing for governed environments. It is on a gra
 
 ---
 
-⬅️ [Project roles and members](/projects/project-roles-and-members.md) · 📚 [Topic index](/projects/index.md) · [Walkthrough: create a project](/projects/set-up-a-project.md) ➡️
+⬅️ [Project roles and members](/projects/project-roles-and-members.md) · 📚 [Chapter 04 index](/projects/index.md) · [Walkthrough: create a project in JFrog SaaS](/projects/set-up-a-project.md) ➡️

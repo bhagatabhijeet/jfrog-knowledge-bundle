@@ -107,4 +107,4 @@ This is a typical pattern, not a rule. Everyone uses all three sooner or later.
 
 ---
 
-📚 [Topic index](/artifactory-views/index.md) · [Packages](/artifactory-views/packages.md) ➡️
+⏮️ [Previous chapter: Projects](/projects/index.md) · 📚 [Chapter 05 index](/artifactory-views/index.md) · [Packages: the catalog of everything you hold](/artifactory-views/packages.md) ➡️

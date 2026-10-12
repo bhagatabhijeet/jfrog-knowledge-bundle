@@ -324,4 +324,4 @@ Put the menu items in the order software actually travels and the picture become
 
 ---
 
-⬅️ [Platform or Administration?](/platform-navigation/platform-and-administration.md) · 📚 [Topic index](/platform-navigation/index.md) · [Integrations: connecting JFrog to your tools](/platform-navigation/integrations.md) ➡️
+⬅️ [Platform or Administration?](/platform-navigation/platform-and-administration.md) · 📚 [Chapter 02 index](/platform-navigation/index.md) · [Integrations: connecting JFrog to your tools](/platform-navigation/integrations.md) ➡️

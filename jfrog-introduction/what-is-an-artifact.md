@@ -106,4 +106,4 @@ In the wider sense, artifacts are everything produced during the software develo
 
 ---
 
-📚 [Topic index](/jfrog-introduction/index.md) · [What is an artifact repository?](/jfrog-introduction/what-is-an-artifact-repository.md) ➡️
+📚 [Chapter 01 index](/jfrog-introduction/index.md) · [What is an artifact repository?](/jfrog-introduction/what-is-an-artifact-repository.md) ➡️

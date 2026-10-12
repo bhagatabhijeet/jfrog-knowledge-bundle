@@ -62,4 +62,4 @@ A **software bill of materials** is an ingredients list for software: every comp
 
 ---
 
-⬅️ [Deployment options and federation](/jfrog-introduction/deployment-and-federation.md) · 📚 [Topic index](/jfrog-introduction/index.md) · [Access management in Artifactory](/jfrog-introduction/access-management.md) ➡️
+⬅️ [Deployment options and federation](/jfrog-introduction/deployment-and-federation.md) · 📚 [Chapter 01 index](/jfrog-introduction/index.md) · [Access management in Artifactory](/jfrog-introduction/access-management.md) ➡️

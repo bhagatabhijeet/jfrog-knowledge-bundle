@@ -66,4 +66,4 @@ These are examples. The full list is much longer.
 
 ---
 
-⬅️ [Build once, promote everywhere](/jfrog-introduction/build-once-promote-everywhere.md) · 📚 [Topic index](/jfrog-introduction/index.md) · [Remote repositories: proxying and caching open source dependencies](/jfrog-introduction/remote-repositories.md) ➡️
+⬅️ [Artifactory editions: Open Source and SaaS](/jfrog-introduction/artifactory-editions.md) · 📚 [Chapter 01 index](/jfrog-introduction/index.md) · [Remote repositories: proxying and caching open source dependencies](/jfrog-introduction/remote-repositories.md) ➡️
