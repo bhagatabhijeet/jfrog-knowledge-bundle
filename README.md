@@ -107,7 +107,8 @@
 | **29** | [The launcher](platform-navigation/the-launcher.md) |
 | **30** | [Platform or Administration?](platform-navigation/platform-and-administration.md) |
 | **31** | [A tour of the left menu: what JFrog can do](platform-navigation/the-left-menu.md) |
-| **32** | [MyJFrog: the account portal](platform-navigation/myjfrog-portal.md) |
+| **32** | [Integrations: connecting JFrog to your tools](platform-navigation/integrations.md) |
+| **33** | [MyJFrog: the account portal](platform-navigation/myjfrog-portal.md) |
 
 </td>
 <td width="50%" valign="top">
@@ -128,10 +129,10 @@
 
 | | Concept |
 |:-:|---|
-| **33** | [Packages, Builds, Artifacts: which is which?](artifactory-views/three-windows.md) |
-| **34** | [Packages: the catalogue](artifactory-views/packages.md) |
-| **35** | [Builds: the logbook of your CI](artifactory-views/builds.md) |
-| **36** | [Artifacts: the file explorer](artifactory-views/artifacts.md) |
+| **34** | [Packages, Builds, Artifacts: which is which?](artifactory-views/three-windows.md) |
+| **35** | [Packages: the catalogue](artifactory-views/packages.md) |
+| **36** | [Builds: the logbook of your CI](artifactory-views/builds.md) |
+| **37** | [Artifacts: the file explorer](artifactory-views/artifacts.md) |
 
 </td>
 <td width="50%" valign="top">

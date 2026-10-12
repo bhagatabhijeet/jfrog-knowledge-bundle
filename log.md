@@ -1,6 +1,7 @@
 # Bundle Update Log
 
 ## 2026-10-11
+* **Creation**: Added [Integrations: connecting JFrog to your tools](platform-navigation/integrations.md), with two infographics.
 * **Creation**: Added the [Packages, Builds and Artifacts](artifactory-views/) topic with four concepts and five infographics.
 * **Update**: The left menu tour now covers Distribution and Pipelines as menu items and explains that menus differ between sites.
 * **Creation**: Added [Intro to Artifactory SaaS](platform-navigation/intro-to-artifactory-saas.md) as the opening page of Finding your way around.

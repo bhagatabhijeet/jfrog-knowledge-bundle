@@ -91,4 +91,4 @@ JFrog lists five jobs for the portal.[^docs-myjfrog]
 
 ---
 
-⬅️ [A tour of the left menu: what JFrog can do](/platform-navigation/the-left-menu.md) · 📚 [Topic index](/platform-navigation/index.md)
+⬅️ [Integrations: connecting JFrog to your tools](/platform-navigation/integrations.md) · 📚 [Topic index](/platform-navigation/index.md)

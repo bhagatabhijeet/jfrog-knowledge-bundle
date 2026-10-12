@@ -230,7 +230,7 @@ AppTrust is JFrog's solution for application risk governance. It puts evidence-b
 
 | Item | What it is for |
 |---|---|
-| 🔌 **Integrations** | Connecting JFrog to the tools around it: GitHub, Jira, Jenkins, build tools such as Maven and Gradle, and the JFrog CLI.[^docs-integrations] |
+| 🔌 **Integrations** ([in depth](/platform-navigation/integrations.md)) | Connecting JFrog to the tools around it: GitHub, Jira, Jenkins, build tools such as Maven and Gradle, and the JFrog CLI.[^docs-integrations] |
 | 🧠 **JFrog MCP** | A server that lets AI coding assistants, such as those in VS Code or Cursor, work with your JFrog Platform. On SaaS it is available on all subscription levels.[^docs-mcp] The arrow beside it means it opens outside the menu. |
 
 # 🚚 Distribution
@@ -324,4 +324,4 @@ Put the menu items in the order software actually travels and the picture become
 
 ---
 
-⬅️ [Platform or Administration?](/platform-navigation/platform-and-administration.md) · 📚 [Topic index](/platform-navigation/index.md) · [MyJFrog: the account portal](/platform-navigation/myjfrog-portal.md) ➡️
+⬅️ [Platform or Administration?](/platform-navigation/platform-and-administration.md) · 📚 [Topic index](/platform-navigation/index.md) · [Integrations: connecting JFrog to your tools](/platform-navigation/integrations.md) ➡️
