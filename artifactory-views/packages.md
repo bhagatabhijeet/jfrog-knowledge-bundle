@@ -137,6 +137,9 @@ flowchart LR
 | 🚨 **"Is this vulnerable version in use?"** | Open the package → pick the version → **Builds → Used By** |
 | 🗺️ **"Where is it physically?"** | Open the package → **Repositories** → **Show in Artifacts Tree** |
 
+> [!NOTE]
+> Unsure how this differs from the Builds menu? See [Packages vs Builds](/artifactory-views/packages-vs-builds.md).
+
 # What Packages does not do
 
 | You cannot | Go here instead |

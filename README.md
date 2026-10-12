@@ -139,7 +139,8 @@
 | **34** | [Packages, Builds, Artifacts: which is which?](artifactory-views/three-windows.md) |
 | **35** | [Packages: the catalogue](artifactory-views/packages.md) |
 | **36** | [Builds: the logbook of your CI](artifactory-views/builds.md) |
-| **37** | [Artifacts: the file explorer](artifactory-views/artifacts.md) |
+| **37** | [Packages vs Builds: the difference](artifactory-views/packages-vs-builds.md) |
+| **38** | [Artifacts: the file explorer](artifactory-views/artifacts.md) |
 
 </td>
 <td width="50%" valign="top">

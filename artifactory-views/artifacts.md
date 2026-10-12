@@ -197,4 +197,4 @@ flowchart LR
 
 ---
 
-⬅️ [Builds](/artifactory-views/builds.md) · 📚 [Topic index](/artifactory-views/index.md)
+⬅️ [Packages vs Builds: the difference](/artifactory-views/packages-vs-builds.md) · 📚 [Topic index](/artifactory-views/index.md)
