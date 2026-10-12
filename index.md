@@ -8,6 +8,7 @@ okf_version: "0.2"
 * [Repository Management](repository-management/) - The repository types in Artifactory, how each behaves, and how to name and organize them.
 * [Projects](projects/) - How JFrog Projects give each team its own workspace, with roles, resources, environments and quotas.
 * [Finding your way around](platform-navigation/) - The JFrog Platform interface decoded: the top bar, the launcher, sites and subscriptions, the two menus and MyJFrog.
+* [Packages, Builds and Artifacts](artifactory-views/) - The three everyday views of Artifactory explained in depth: what each does, what it contains and when to open it.
 
 # Bundle
 

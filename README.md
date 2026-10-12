@@ -120,6 +120,30 @@
 </tr>
 </table>
 
+<table>
+<tr>
+<td width="50%" valign="top">
+
+<a href="artifactory-views/index.md"><img src="assets/readme/chapter-05.svg" alt="Chapter 05: Packages, Builds and Artifacts. Three windows onto your software." width="100%"/></a>
+
+| | Concept |
+|:-:|---|
+| **33** | [Packages, Builds, Artifacts: which is which?](artifactory-views/three-windows.md) |
+| **34** | [Packages: the catalogue](artifactory-views/packages.md) |
+| **35** | [Builds: the logbook of your CI](artifactory-views/builds.md) |
+| **36** | [Artifacts: the file explorer](artifactory-views/artifacts.md) |
+
+</td>
+<td width="50%" valign="top">
+
+<a href="artifactory-views/three-windows.md"><img src="assets/images/artifactory-views/three-windows.svg" alt="Packages, Builds and Artifacts compared" width="100%"/></a>
+
+🟢 **Using Artifactory every day?** Chapter 05 goes deep on the three screens you will open most.
+
+</td>
+</tr>
+</table>
+
 <img src="assets/readme/divider.svg" alt="" width="100%"/>
 
 ## ✨ Why you will keep reading
@@ -338,6 +362,7 @@ What an agent gets from the format:
 | 📙 [Repository Management](repository-management/index.md) | 🚧 Draft, awaiting human review |
 | 📘 [Projects](projects/index.md) | 🚧 Draft, awaiting human review |
 | 📒 [Finding your way around](platform-navigation/index.md) | 🚧 Draft, awaiting human review |
+| 📓 [Packages, Builds and Artifacts](artifactory-views/index.md) | 🚧 Draft, awaiting human review |
 | 📕 More topics | ⏳ Coming, one chapter at a time |
 
 Watch or star the repository to catch each new chapter.

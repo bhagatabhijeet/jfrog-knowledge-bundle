@@ -1,6 +1,7 @@
 # Bundle Update Log
 
 ## 2026-10-11
+* **Creation**: Added the [Packages, Builds and Artifacts](artifactory-views/) topic with four concepts and five infographics.
 * **Update**: The left menu tour now covers Distribution and Pipelines as menu items and explains that menus differ between sites.
 * **Creation**: Added [Intro to Artifactory SaaS](platform-navigation/intro-to-artifactory-saas.md) as the opening page of Finding your way around.
 * **Update**: Expanded the project setup page into a full [create-a-project walkthrough](projects/set-up-a-project.md) for JFrog SaaS, with a dialog infographic.

@@ -139,6 +139,8 @@ A package can contain one artifact or many.[^docs-objects]
 
 ## 📦 Packages
 
+*In depth: [Packages: the catalogue](/artifactory-views/packages.md).*
+
 A list of every package stored in every repository. You see a summary of the latest version of each and can drill into earlier versions, filter by type and name, and for some package types copy an install command.[^docs-packages]
 
 | Use it when | Example |
@@ -148,6 +150,8 @@ A list of every package stored in every repository. You see a summary of the lat
 | You are comparing versions | See what changed between `1.2.0` and `1.3.0` |
 
 ## 🏗️ Builds
+
+*In depth: [Builds: the logbook of your CI](/artifactory-views/builds.md).*
 
 The record of your CI runs. **Build-info** identifies a run by build name and build number, and lists the modules, artifacts and dependencies that belong to it.[^docs-build-info]
 
@@ -161,6 +165,8 @@ The record of your CI runs. **Build-info** identifies a run by build name and bu
 | You are auditing | List exactly which dependencies went into build 142 |
 
 ## 📄 Artifacts
+
+*In depth: [Artifacts: the file explorer](/artifactory-views/artifacts.md).*
 
 The repository tree: every repository, every folder, every file. This is where you browse, upload and download directly.
 
