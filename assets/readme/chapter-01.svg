@@ -1,12 +1,12 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 300" width="600" height="300" role="img" aria-label="Chapter 01: JFrog Introduction. From artifact chaos to one source of truth">
-<defs><linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#00C853"/><stop offset="0.55" stop-color="#00B8D4"/><stop offset="1" stop-color="#2962FF"/></linearGradient></defs>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 300" width="600" height="300" role="img" aria-label="Chapter 01: JFrog Introduction. From artifact chaos to one source of truth.">
+<defs><linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#00C853"/><stop offset=".55" stop-color="#00B8D4"/><stop offset="1" stop-color="#2962FF"/></linearGradient></defs>
 <rect width="600" height="300" rx="24" fill="url(#g)"/>
 <circle cx="520" cy="60" r="130" fill="#FFFFFF" opacity=".12"/><circle cx="60" cy="290" r="110" fill="#000000" opacity=".10"/>
 <text x="560" y="250" text-anchor="end" font-family="Segoe UI, Helvetica Neue, Helvetica, Arial, sans-serif" font-size="210" font-weight="900" fill="#FFFFFF" opacity=".22">01</text>
-<g transform="translate(532 58) scale(.7) translate(-478 -96)"><g opacity="1"><polygon points="478,62 507.444,79.0 478,96 448.556,79.0" fill="#FFE57F"/><polygon points="448.556,79.0 478,96 478,130 448.556,113.0" fill="#FFAB00"/><polygon points="507.444,79.0 478,96 478,130 507.444,113.0" fill="#C67C00"/></g></g>
+<polygon points="532,34 552.8,46.0 532,58 511.2,46.0" fill="#FFE57F"/><polygon points="511.2,46.0 532,58 532,82 511.2,70.0" fill="#FFAB00"/><polygon points="552.8,46.0 532,58 532,82 552.8,70.0" fill="#C67C00"/>
 <text x="36" y="58" font-family="Segoe UI, Helvetica Neue, Helvetica, Arial, sans-serif" font-size="16" font-weight="800" letter-spacing="5" fill="#E8FFF0">CHAPTER 01</text>
 <text x="36" y="128" font-family="Segoe UI, Helvetica Neue, Helvetica, Arial, sans-serif" font-size="40" font-weight="900" fill="#FFFFFF">JFrog Introduction</text>
 <rect x="36" y="150" width="72" height="6" rx="3" fill="#E8FFF0"/>
-<text x="36" y="200" font-family="Segoe UI, Helvetica Neue, Helvetica, Arial, sans-serif" font-size="22" font-weight="600" fill="#FFFFFF">From artifact chaos to one source of truth</text>
-<text x="36" y="262" font-family="Segoe UI, Helvetica Neue, Helvetica, Arial, sans-serif" font-size="16" font-weight="700" letter-spacing="2" fill="#E8FFF0">START HERE  ·  ILLUSTRATED</text>
+<text x="36" y="200" font-family="Segoe UI, Helvetica Neue, Helvetica, Arial, sans-serif" font-size="21" font-weight="600" fill="#FFFFFF">From artifact chaos to one source of truth</text>
+<text x="36" y="262" font-family="Segoe UI, Helvetica Neue, Helvetica, Arial, sans-serif" font-size="16" font-weight="700" letter-spacing="2" fill="#E8FFF0">THE IDEAS  ·  THE WHY</text>
 </svg>

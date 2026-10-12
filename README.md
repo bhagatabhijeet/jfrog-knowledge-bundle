@@ -21,56 +21,48 @@
 
 **Jump to a chapter:**
 [01 · JFrog Introduction](jfrog-introduction/index.md) ·
-[02 · Repository Management](repository-management/index.md) ·
-[03 · Projects](projects/index.md) ·
-[04 · Finding your way around](platform-navigation/index.md) ·
+[02 · Finding your way around](platform-navigation/index.md) ·
+[03 · Repository Management](repository-management/index.md) ·
+[04 · Projects](projects/index.md) ·
 [05 · Packages, Builds, Artifacts](artifactory-views/index.md)
 
 <img src="assets/readme/divider.svg" alt="" width="100%"/>
 
 ## 📰 In this issue
 
+| If you are... | Start with |
+|---|---|
+| 🌱 New to JFrog | Chapter 01, then read straight through |
+| 🖥️ Just signed in and lost | Chapter 02 |
+| 🧱 Setting up repositories or a team | Chapters 03 and 04 |
+| 🔎 Using Artifactory day to day | Chapter 05 |
+
 <table>
 <tr>
-<td width="50%" valign="top">
+<td width="42%" valign="top">
 
 <a href="jfrog-introduction/index.md"><img src="assets/readme/chapter-01.svg" alt="Chapter 01: JFrog Introduction. From artifact chaos to one source of truth." width="100%"/></a>
+
+The ideas behind everything else: what an artifact is, why teams lose track of them, and what Artifactory does about it.
+
+</td>
+<td width="58%" valign="top">
 
 | | Concept |
 |:-:|---|
 | **01** | [What is an artifact?](jfrog-introduction/what-is-an-artifact.md) |
 | **02** | [What is an artifact repository?](jfrog-introduction/what-is-an-artifact-repository.md) |
-| **03** | [Artifact sprawl: the problem](jfrog-introduction/artifact-sprawl.md) |
+| **03** | [Artifact sprawl: the problem Artifactory solves](jfrog-introduction/artifact-sprawl.md) |
 | **04** | [Why not Git for artifacts? Why Artifactory?](jfrog-introduction/why-not-git-for-artifacts.md) |
 | **05** | [What JFrog Artifactory is](jfrog-introduction/what-is-artifactory.md) |
 | **06** | [Artifactory editions: Open Source and SaaS](jfrog-introduction/artifactory-editions.md) |
-| **07** | [Checksum-based storage](jfrog-introduction/checksum-based-storage.md) |
-| **08** | [Build once, promote everywhere](jfrog-introduction/build-once-promote-everywhere.md) |
-| **09** | [Universal package support](jfrog-introduction/universal-package-support.md) |
-| **10** | [Remote repositories: proxy and cache](jfrog-introduction/remote-repositories.md) |
+| **07** | [Universal package support and the single source of truth](jfrog-introduction/universal-package-support.md) |
+| **08** | [Remote repositories: proxying and caching open source dependencies](jfrog-introduction/remote-repositories.md) |
+| **09** | [Build once, promote everywhere](jfrog-introduction/build-once-promote-everywhere.md) |
+| **10** | [Checksum-based storage: how Artifactory keeps binaries](jfrog-introduction/checksum-based-storage.md) |
 | **11** | [Deployment options and federation](jfrog-introduction/deployment-and-federation.md) |
-| **12** | [Supply chain security: Xray and the SBOM](jfrog-introduction/supply-chain-security.md) |
-| **13** | [Access management](jfrog-introduction/access-management.md) |
-
-</td>
-<td width="50%" valign="top">
-
-<a href="repository-management/index.md"><img src="assets/readme/chapter-02.svg" alt="Chapter 02: Repository Management. Local, remote, virtual: decoded." width="100%"/></a>
-
-| | Concept |
-|:-:|---|
-| **14** | [Repository types in Artifactory](repository-management/repository-types.md) |
-| **15** | [Local repositories](repository-management/local-repositories.md) |
-| **16** | [Remote repositories](repository-management/remote-repositories.md) |
-| **17** | [Smart Remote repositories](repository-management/smart-remote-repositories.md) |
-| **18** | [Virtual repositories](repository-management/virtual-repositories.md) |
-| **19** | [Repository naming conventions](repository-management/repository-naming-conventions.md) |
-| **20** | [Why the package type matters](repository-management/why-package-type-matters.md) |
-| **21** | [Walkthrough: set up .NET repositories](repository-management/set-up-dotnet-repositories.md) |
-
-🟢 **New here?** Start at **01** and follow the *next* link at the foot of each page.
-
-🟣 **Know the basics?** Jump straight to **14**.
+| **12** | [Software supply chain security: Xray, build metadata and the SBOM](jfrog-introduction/supply-chain-security.md) |
+| **13** | [Access management in Artifactory](jfrog-introduction/access-management.md) |
 
 </td>
 </tr>
@@ -78,23 +70,25 @@
 
 <table>
 <tr>
-<td width="50%" valign="top">
+<td width="42%" valign="top">
 
-<a href="projects/index.md"><img src="assets/readme/chapter-03.svg" alt="Chapter 03: Projects. Give every team its own workspace." width="100%"/></a>
+<a href="platform-navigation/index.md"><img src="assets/readme/chapter-02.svg" alt="Chapter 02: Finding your way around. The interface, decoded." width="100%"/></a>
+
+Your first hour in JFrog SaaS: what the screen is telling you, where things live, and which menu does what.
+
+</td>
+<td width="58%" valign="top">
 
 | | Concept |
 |:-:|---|
-| **22** | [What is a JFrog Project?](projects/what-is-a-project.md) |
-| **23** | [Project roles and members](projects/project-roles-and-members.md) |
-| **24** | [Project resources, environments and quotas](projects/project-resources.md) |
-| **25** | [Walkthrough: create a project](projects/set-up-a-project.md) |
-
-</td>
-<td width="50%" valign="top">
-
-<a href="projects/what-is-a-project.md"><img src="assets/images/projects/project-anatomy.svg" alt="Inside a JFrog Project" width="100%"/></a>
-
-🔵 **Running a team on JFrog?** Chapter 03 shows how a Project keeps your people, repositories and rules in one workspace.
+| **14** | [Intro to Artifactory SaaS](platform-navigation/intro-to-artifactory-saas.md) |
+| **15** | [The top bar, decoded](platform-navigation/the-top-bar.md) |
+| **16** | [Subscriptions, sites and JPDs](platform-navigation/subscriptions-sites-and-jpds.md) |
+| **17** | [The launcher: moving between sites and subscriptions](platform-navigation/the-launcher.md) |
+| **18** | [MyJFrog: the account portal](platform-navigation/myjfrog-portal.md) |
+| **19** | [Platform or Administration?](platform-navigation/platform-and-administration.md) |
+| **20** | [A tour of the left menu: what JFrog can do](platform-navigation/the-left-menu.md) |
+| **21** | [Integrations: connecting JFrog to your tools](platform-navigation/integrations.md) |
 
 </td>
 </tr>
@@ -102,27 +96,25 @@
 
 <table>
 <tr>
-<td width="50%" valign="top">
+<td width="42%" valign="top">
 
-<a href="platform-navigation/index.md"><img src="assets/readme/chapter-04.svg" alt="Chapter 04: Finding your way around. The interface, decoded." width="100%"/></a>
+<a href="repository-management/index.md"><img src="assets/readme/chapter-03.svg" alt="Chapter 03: Repository Management. Local, remote, virtual: decoded." width="100%"/></a>
+
+Where your software actually lives: the repository types, when to use each, and how to set them up properly.
+
+</td>
+<td width="58%" valign="top">
 
 | | Concept |
 |:-:|---|
-| **26** | [Intro to Artifactory SaaS](platform-navigation/intro-to-artifactory-saas.md) |
-| **27** | [The top bar, decoded](platform-navigation/the-top-bar.md) |
-| **28** | [Subscriptions, sites and JPDs](platform-navigation/subscriptions-sites-and-jpds.md) |
-| **29** | [The launcher](platform-navigation/the-launcher.md) |
-| **30** | [Platform or Administration?](platform-navigation/platform-and-administration.md) |
-| **31** | [A tour of the left menu: what JFrog can do](platform-navigation/the-left-menu.md) |
-| **32** | [Integrations: connecting JFrog to your tools](platform-navigation/integrations.md) |
-| **33** | [MyJFrog: the account portal](platform-navigation/myjfrog-portal.md) |
-
-</td>
-<td width="50%" valign="top">
-
-<a href="platform-navigation/the-top-bar.md"><img src="assets/images/platform-navigation/top-bar-decoded.svg" alt="The top bar, decoded" width="100%"/></a>
-
-🟠 **Just logged in and lost?** Chapter 04 explains every button across the top of the screen. It is a good first stop even before chapter 01.
+| **22** | [Repository types in Artifactory](repository-management/repository-types.md) |
+| **23** | [Local repositories](repository-management/local-repositories.md) |
+| **24** | [Remote repositories](repository-management/remote-repositories.md) |
+| **25** | [Virtual repositories](repository-management/virtual-repositories.md) |
+| **26** | [Smart Remote repositories](repository-management/smart-remote-repositories.md) |
+| **27** | [Why the package type matters](repository-management/why-package-type-matters.md) |
+| **28** | [Repository naming conventions](repository-management/repository-naming-conventions.md) |
+| **29** | [Walkthrough: set up .NET repositories in JFrog SaaS](repository-management/set-up-dotnet-repositories.md) |
 
 </td>
 </tr>
@@ -130,24 +122,44 @@
 
 <table>
 <tr>
-<td width="50%" valign="top">
+<td width="42%" valign="top">
 
-<a href="artifactory-views/index.md"><img src="assets/readme/chapter-05.svg" alt="Chapter 05: Packages, Builds and Artifacts. Three windows onto your software." width="100%"/></a>
+<a href="projects/index.md"><img src="assets/readme/chapter-04.svg" alt="Chapter 04: Projects. Give every team its own workspace." width="100%"/></a>
+
+How a team gets its own space: people, roles, repositories and a storage budget, all in one place.
+
+</td>
+<td width="58%" valign="top">
+
+| | Concept |
+|:-:|---|
+| **30** | [What is a JFrog Project?](projects/what-is-a-project.md) |
+| **31** | [Project roles and members](projects/project-roles-and-members.md) |
+| **32** | [Project resources, environments and quotas](projects/project-resources.md) |
+| **33** | [Walkthrough: create a project in JFrog SaaS](projects/set-up-a-project.md) |
+
+</td>
+</tr>
+</table>
+
+<table>
+<tr>
+<td width="42%" valign="top">
+
+<a href="artifactory-views/index.md"><img src="assets/readme/chapter-05.svg" alt="Chapter 05: Packages, Builds, Artifacts. Three windows onto your software." width="100%"/></a>
+
+The three screens you will open every day, explained in depth, and how they differ.
+
+</td>
+<td width="58%" valign="top">
 
 | | Concept |
 |:-:|---|
 | **34** | [Packages, Builds, Artifacts: which is which?](artifactory-views/three-windows.md) |
-| **35** | [Packages: the catalog](artifactory-views/packages.md) |
+| **35** | [Packages: the catalog of everything you hold](artifactory-views/packages.md) |
 | **36** | [Builds: the logbook of your CI](artifactory-views/builds.md) |
 | **37** | [Packages vs Builds: the difference](artifactory-views/packages-vs-builds.md) |
 | **38** | [Artifacts: the file explorer](artifactory-views/artifacts.md) |
-
-</td>
-<td width="50%" valign="top">
-
-<a href="artifactory-views/three-windows.md"><img src="assets/images/artifactory-views/three-windows.svg" alt="Packages, Builds and Artifacts compared" width="100%"/></a>
-
-🟢 **Using Artifactory every day?** Chapter 05 goes deep on the three screens you will open most.
 
 </td>
 </tr>
@@ -214,20 +226,12 @@ Every page says who wrote it, who checked it and when it expires.
 
 ```mermaid
 flowchart LR
-    subgraph T1["Chapter 01 · JFrog Introduction"]
-        direction LR
-        A["The problem:<br/>artifact sprawl"]:::green --> B["What<br/>Artifactory is"]:::teal --> C["What it<br/>makes possible"]:::blue
-    end
-    subgraph T2["Chapter 02 · Repository Management"]
-        direction LR
-        D["Repository<br/>types"]:::orange --> E["Local, remote,<br/>Smart Remote, virtual"]:::pink --> F["Naming and<br/>governance"]:::purple
-    end
-    subgraph T3["Chapter 03 · Projects"]
-        direction LR
-        G["What a<br/>Project is"]:::teal --> H["Roles, resources,<br/>environments"]:::blue --> I["Set one up"]:::green
-    end
-    C ==> D
-    F ==> G
+    C1["01<br/>JFrog Introduction"]:::green
+    C2["02<br/>Finding your way around"]:::orange
+    C3["03<br/>Repository Management"]:::pink
+    C4["04<br/>Projects"]:::blue
+    C5["05<br/>Packages,<br/>Builds, Artifacts"]:::teal
+    C1 ==> C2 ==> C3 ==> C4 ==> C5
     classDef green fill:#00C853,stroke:#00963F,color:#06210F
     classDef teal fill:#00B8D4,stroke:#008BA3,color:#00222A
     classDef blue fill:#2979FF,stroke:#004ECB,color:#FFFFFF
@@ -236,7 +240,9 @@ flowchart LR
     classDef purple fill:#7C4DFF,stroke:#3F1DCB,color:#FFFFFF
 ```
 
-And the one picture worth remembering from chapter 02:
+The ideas come first, then the screen, then the things you set up, then the screens you use every day.
+
+And the one picture worth remembering from chapter 03:
 
 ```mermaid
 flowchart LR
@@ -367,11 +373,11 @@ What an agent gets from the format:
 
 | Chapter | Status |
 |---|---|
-| 📗 [JFrog Introduction](jfrog-introduction/index.md) | 🚧 Draft, awaiting human review |
-| 📙 [Repository Management](repository-management/index.md) | 🚧 Draft, awaiting human review |
-| 📘 [Projects](projects/index.md) | 🚧 Draft, awaiting human review |
-| 📒 [Finding your way around](platform-navigation/index.md) | 🚧 Draft, awaiting human review |
-| 📓 [Packages, Builds and Artifacts](artifactory-views/index.md) | 🚧 Draft, awaiting human review |
+| 📗 01 · [JFrog Introduction](jfrog-introduction/index.md) | 🚧 Draft, awaiting human review |
+| 📒 02 · [Finding your way around](platform-navigation/index.md) | 🚧 Draft, awaiting human review |
+| 📙 03 · [Repository Management](repository-management/index.md) | 🚧 Draft, awaiting human review |
+| 📘 04 · [Projects](projects/index.md) | 🚧 Draft, awaiting human review |
+| 📓 05 · [Packages, Builds, Artifacts](artifactory-views/index.md) | 🚧 Draft, awaiting human review |
 | 📕 More topics | ⏳ Coming, one chapter at a time |
 
 Watch or star the repository to catch each new chapter.

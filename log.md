@@ -1,5 +1,9 @@
 # Bundle Update Log
 
+## 2026-10-12
+* **Update**: Resequenced the bundle. Chapters now run: JFrog Introduction, Finding your way around, Repository Management, Projects, then Packages, Builds, Artifacts. Pages within chapters are regrouped, and each chapter's last page links to the next chapter.
+* **Update**: Standardized spelling to US English, deepened six short introduction pages, and added infographics to four pages that had none.
+
 ## 2026-10-11
 * **Creation**: Added [Packages vs Builds: the difference](artifactory-views/packages-vs-builds.md), with two infographics.
 * **Creation**: Added [Integrations: connecting JFrog to your tools](platform-navigation/integrations.md), with two infographics.

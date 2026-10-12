@@ -1,12 +1,12 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 300" width="600" height="300" role="img" aria-label="Chapter 03: Projects. Give every team its own workspace.">
-<defs><linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#00B8D4"/><stop offset=".5" stop-color="#2979FF"/><stop offset="1" stop-color="#651FFF"/></linearGradient></defs>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 300" width="600" height="300" role="img" aria-label="Chapter 03: Repository Management. Local, remote, virtual: decoded.">
+<defs><linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#FF8A00"/><stop offset=".55" stop-color="#F50057"/><stop offset="1" stop-color="#6A1B9A"/></linearGradient></defs>
 <rect width="600" height="300" rx="24" fill="url(#g)"/>
 <circle cx="520" cy="60" r="130" fill="#FFFFFF" opacity=".12"/><circle cx="60" cy="290" r="110" fill="#000000" opacity=".10"/>
 <text x="560" y="250" text-anchor="end" font-family="Segoe UI, Helvetica Neue, Helvetica, Arial, sans-serif" font-size="210" font-weight="900" fill="#FFFFFF" opacity=".22">03</text>
-<polygon points="532,34 552.8,46.0 532,58 511.2,46.0" fill="#B9F6CA"/><polygon points="511.2,46.0 532,58 532,82 511.2,70.0" fill="#00C853"/><polygon points="552.8,46.0 532,58 532,82 552.8,70.0" fill="#009624"/>
-<text x="36" y="58" font-family="Segoe UI, Helvetica Neue, Helvetica, Arial, sans-serif" font-size="16" font-weight="800" letter-spacing="5" fill="#E3F2FD">CHAPTER 03</text>
-<text x="36" y="128" font-family="Segoe UI, Helvetica Neue, Helvetica, Arial, sans-serif" font-size="40" font-weight="900" fill="#FFFFFF">Projects</text>
-<rect x="36" y="150" width="72" height="6" rx="3" fill="#E3F2FD"/>
-<text x="36" y="200" font-family="Segoe UI, Helvetica Neue, Helvetica, Arial, sans-serif" font-size="22" font-weight="600" fill="#FFFFFF">Give every team its own workspace</text>
-<text x="36" y="262" font-family="Segoe UI, Helvetica Neue, Helvetica, Arial, sans-serif" font-size="16" font-weight="700" letter-spacing="2" fill="#E3F2FD">ORGANIZE  ·  DELEGATE  ·  GOVERN</text>
+<polygon points="532,34 552.8,46.0 532,58 511.2,46.0" fill="#80D8FF"/><polygon points="511.2,46.0 532,58 532,82 511.2,70.0" fill="#0091EA"/><polygon points="552.8,46.0 532,58 532,82 552.8,70.0" fill="#0064B7"/>
+<text x="36" y="58" font-family="Segoe UI, Helvetica Neue, Helvetica, Arial, sans-serif" font-size="16" font-weight="800" letter-spacing="5" fill="#FFF3C4">CHAPTER 03</text>
+<text x="36" y="128" font-family="Segoe UI, Helvetica Neue, Helvetica, Arial, sans-serif" font-size="40" font-weight="900" fill="#FFFFFF">Repository Management</text>
+<rect x="36" y="150" width="72" height="6" rx="3" fill="#FFF3C4"/>
+<text x="36" y="200" font-family="Segoe UI, Helvetica Neue, Helvetica, Arial, sans-serif" font-size="21" font-weight="600" fill="#FFFFFF">Local, remote, virtual: decoded</text>
+<text x="36" y="262" font-family="Segoe UI, Helvetica Neue, Helvetica, Arial, sans-serif" font-size="16" font-weight="700" letter-spacing="2" fill="#FFF3C4">STORE  ·  PROXY  ·  SERVE</text>
 </svg>
