@@ -85,10 +85,10 @@ flowchart TD
     Q2 -->|"No, we need more"| MORE["Talk to JFrog about<br/>self-managed subscriptions"]
 ```
 
-| If you... | Lean towards |
+| If you... | Lean toward |
 |---|---|
 | 🧪 are learning, or running a small Java team | 🟢 Open Source |
-| 🔒 must keep everything on your own servers at no licence cost | 🟢 Open Source |
+| 🔒 must keep everything on your own servers at no license cost | 🟢 Open Source |
 | 🏃 want to start in minutes with nothing to install | 🔵 SaaS |
 | 🧰 use many package types and want the full platform | 🔵 SaaS |
 | 😴 do not want to be paged for upgrades and outages | 🔵 SaaS |

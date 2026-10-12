@@ -67,14 +67,14 @@ flowchart LR
 
 # What is inside your site
 
-Artifactory is the centre, and other capabilities sit around it.
+Artifactory is the center, and other capabilities sit around it.
 
 ![Where each capability fits: let in with Curation, store in Artifactory, record with Builds, scan with Xray, govern with AppTrust, deliver with Distribution, run on devices with Connect](/assets/images/platform-navigation/capability-journey.svg)
 
 | Capability | What it does |
 |---|---|
 | 📦 **Artifactory** | Stores and serves every package and binary. See [what Artifactory is](/jfrog-introduction/what-is-artifactory.md). |
-| 🔬 **Xray** | Scans what you store for vulnerabilities and licence risks |
+| 🔬 **Xray** | Scans what you store for vulnerabilities and license risks |
 | 🚪 **Curation** and 📚 **Catalog** | Control and research the open source you bring in |
 | 🚦 **AppTrust** | Governs which releases may go to production |
 | 🔌 **Integrations** | Connects JFrog to your other tools |

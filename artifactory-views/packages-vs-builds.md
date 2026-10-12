@@ -34,7 +34,7 @@ stale_after: 2027-04-11T00:00:00+00:00
 > [!TIP]
 > **In one line:** Packages shows you the *result*: what exists and how to get it. Builds shows you the *process*: how it was made, and from what.
 
-**Packages** and **Builds** sit next to each other in the menu and often show the same names, so people assume they are two lists of the same thing. They are not. One is a catalogue of products. The other is a logbook of the work that made them.
+**Packages** and **Builds** sit next to each other in the menu and often show the same names, so people assume they are two lists of the same thing. They are not. One is a catalog of products. The other is a logbook of the work that made them.
 
 ![Packages versus Builds, row by row: what a row is, how it is identified, when it appears, what it includes, what it tells you](/assets/images/artifactory-views/packages-vs-builds.svg)
 
@@ -47,7 +47,7 @@ stale_after: 2027-04-11T00:00:00+00:00
 | **Identified by** | Name + version | Name + number |
 | **Represents** | A thing that exists and can be installed | An event that happened at a moment in time |
 | **Question** | *What do we have?* | *How was it made?* |
-| **Everyday comparison** | A shop catalogue | A factory logbook |
+| **Everyday comparison** | A shop catalog | A factory logbook |
 
 In JFrog's own definitions, a package is the name defined in package metadata, while a build is an output representing the build step of CI, with details of the method and dependencies involved.[^docs-objects]
 
@@ -102,7 +102,7 @@ So `express` is a package you hold, but there is no `express` build, because you
 
 | Open one and you see | 📦 A package version | 🏗️ A build run |
 |---|---|---|
-| **Headline facts** | Published date, download count, licences[^docs-packages] | Start time, duration, build tool, CI system[^docs-inspect] |
+| **Headline facts** | Published date, download count, licenses[^docs-packages] | Start time, duration, build tool, CI system[^docs-inspect] |
 | **Security** | Vulnerabilities for this version | Xray data for this run |
 | **How to get it** | ✅ An install command to copy[^docs-packages] | ❌ Not its job |
 | **What went into it** | ❌ Not directly | ✅ Every dependency it consumed[^docs-build-info] |
@@ -147,7 +147,7 @@ flowchart LR
 |---|---|---|
 | "I need to add `lodash` to my project" | 📦 Packages | You want a version and an install command |
 | "What is the latest version of our SDK?" | 📦 Packages | Versions live here |
-| "Is this version safe and properly licensed?" | 📦 Packages | Vulnerabilities and licences per version |
+| "Is this version safe and properly licensed?" | 📦 Packages | Vulnerabilities and licenses per version |
 | "Version 2.3.0 is broken. Which commit made it?" | 🏗️ Builds | The run records its source |
 | "What changed between yesterday's build and today's?" | 🏗️ Builds | The Diff tab |
 | "List every dependency that went into the release" | 🏗️ Builds | The run's consumed list |
@@ -185,7 +185,7 @@ Neither view could answer all five on its own.
 
 # Related
 
-- [Packages: the catalogue of everything you hold](/artifactory-views/packages.md)
+- [Packages: the catalog of everything you hold](/artifactory-views/packages.md)
 - [Builds: the logbook of your CI](/artifactory-views/builds.md)
 - [Packages, Builds, Artifacts: which is which?](/artifactory-views/three-windows.md)
 

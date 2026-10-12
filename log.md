@@ -21,7 +21,7 @@
 * **Creation**: Added [What is an artifact repository?](jfrog-introduction/what-is-an-artifact-repository.md) to JFrog Introduction, with an infographic.
 * **Update**: Added a worked code-to-artifact example with an infographic to [What is an artifact?](jfrog-introduction/what-is-an-artifact.md).
 * **Creation**: Added [What is an artifact?](jfrog-introduction/what-is-an-artifact.md) as the opening concept of JFrog Introduction.
-* **Update**: Gave every concept diagram a colour theme, one palette per topic.
+* **Update**: Gave every concept diagram a color theme, one palette per topic.
 * **Update**: Redesigned the README as a magazine-style cover, with artwork in `assets/readme/`, and added `CITATION.cff` for optional credit.
 * **Update**: Added a one-line takeaway, a diagram and previous/next navigation to every concept.
 * **Update**: Removed the two overview concepts and regenerated the illustrations in `assets/images/jfrog-introduction/`.

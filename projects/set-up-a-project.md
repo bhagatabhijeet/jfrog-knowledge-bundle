@@ -174,7 +174,7 @@ sequenceDiagram
 | Point | Detail |
 |---|---|
 | 💾 **The quota informs, it does not block** | In a cloud environment, a Platform Admin sets the limit for informational purposes; in a self-hosted environment it can limit the space available.[^docs-quota] |
-| 🚦 **Watch the colour** | The storage bar is green under 75%, orange from 75% to 95%, and red at 100%.[^docs-quota] |
+| 🚦 **Watch the color** | The storage bar is green under 75%, orange from 75% to 95%, and red at 100%.[^docs-quota] |
 | 🔢 **Mind the project limit** | It is counted across your whole subscription.[^docs-subscription] |
 
 # Prefer automation?

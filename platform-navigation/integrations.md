@@ -1,7 +1,7 @@
 ---
 type: Reference
 title: "Integrations: connecting JFrog to your tools"
-description: "What the Integrations page is for and what it contains - a searchable catalogue of tools JFrog connects to, by category, plus the GraphQL Playground and the other ways JFrog integrates."
+description: "What the Integrations page is for and what it contains - a searchable catalog of tools JFrog connects to, by category, plus the GraphQL Playground and the other ways JFrog integrates."
 tags: [platform-navigation, integrations, ci-cd, github, authentication, graphql, webhooks, frogbot]
 status: draft
 sources:
@@ -40,11 +40,11 @@ stale_after: 2027-01-11T00:00:00+00:00
 ---
 
 > [!TIP]
-> **In one line:** Integrations is the catalogue of every tool JFrog can plug into, with a guide for connecting each one.
+> **In one line:** Integrations is the catalog of every tool JFrog can plug into, with a guide for connecting each one.
 
 No team uses JFrog alone. Code lives in GitHub or GitLab, builds run in Jenkins or GitHub Actions, people sign in through a company directory. **Integrations** is where the platform shows you everything it can connect to.
 
-![JFrog Platform at the centre of a toolchain, connected to source control, CI/CD, package managers, sign-in, private networking, security, evidence and AI assistants](/assets/images/platform-navigation/integrations-hub.svg)
+![JFrog Platform at the center of a toolchain, connected to source control, CI/CD, package managers, sign-in, private networking, security, evidence and AI assistants](/assets/images/platform-navigation/integrations-hub.svg)
 
 # What it is for
 
@@ -59,13 +59,13 @@ The JFrog Platform integrates with the tools around it, such as GitHub, Jira and
 
 # The page
 
-![The Integrations page, simplified: a submenu, a searchable grid of integration tiles and a filter panel](/assets/images/platform-navigation/integrations-catalogue.svg)
+![The Integrations page, simplified: a submenu, a searchable grid of integration tiles and a filter panel](/assets/images/platform-navigation/integrations-catalog.svg)
 
 Open the **Platform** tab and click **Integrations**. Two entries appear beneath it.
 
 | Entry | What it is |
 |---|---|
-| 🧰 **Tools & Integrations** | The catalogue: a grid of tiles, one per tool |
+| 🧰 **Tools & Integrations** | The catalog: a grid of tiles, one per tool |
 | 🧪 **GraphQL Playground** | A place to try queries against the platform's GraphQL API |
 
 ## Finding an integration
@@ -77,9 +77,9 @@ Open the **Platform** tab and click **Integrations**. Two entries appear beneath
 | ☁️ **Cloud Vendor** | Show only what applies to AWS, GCP or Azure |
 | ↗️ **A tile** | Click it to open that integration. The arrow means it opens outside the page |
 
-# What is in the catalogue
+# What is in the catalog
 
-The catalogue holds over a hundred integrations, sorted into categories.
+The catalog holds over a hundred integrations, sorted into categories.
 
 | Category | Examples | What connecting gives you |
 |---|---|---|
@@ -176,13 +176,13 @@ There are two places with this name, in the two different menus.
 
 | | 🟦 Platform → Integrations | 🟧 Administration → Manage Integrations |
 |---|---|---|
-| **What it is** | A catalogue of what *can* be connected | The integrations *actually configured* on your site |
+| **What it is** | A catalog of what *can* be connected | The integrations *actually configured* on your site |
 | **Who uses it** | Anyone exploring | Administrators |
 | **Where** | Platform tab, left menu | Select **All Projects**, then **Administration → General Management → Manage Integrations**[^docs-platform-int] |
 | **Tabs** | Tools & Integrations, GraphQL Playground | OpenID Connect, GitHub, External Applications[^docs-platform-int] |
 
 > [!NOTE]
-> **Browsing is not connecting.** The catalogue shows you what is possible and points you to the guide. Setting an integration up usually needs an administrator.
+> **Browsing is not connecting.** The catalog shows you what is possible and points you to the guide. Setting an integration up usually needs an administrator.
 
 # Three everyday journeys
 

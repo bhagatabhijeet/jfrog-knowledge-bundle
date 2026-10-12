@@ -15,7 +15,7 @@ stale_after: 2027-04-10T00:00:00+00:00
 
 A remote repository in Artifactory proxies and caches external open source (OSS) dependencies. Builds ask Artifactory for a dependency, and Artifactory serves it from its cache.
 
-![Artifactory in the centre, with remote repositories caching external OSS dependencies](/assets/images/jfrog-introduction/remote-repository-cache.png)
+![Artifactory in the center, with remote repositories caching external OSS dependencies](/assets/images/jfrog-introduction/remote-repository-cache.png)
 
 ```mermaid
 %%{init: {'theme':'base','themeVariables':{'primaryColor':'#B9F6CA','primaryBorderColor':'#00C853','primaryTextColor':'#06210F','lineColor':'#00B8D4','secondaryColor':'#B3E5FC','tertiaryColor':'#E8F5E9','noteBkgColor':'#FFE57F','noteTextColor':'#2B1B00','noteBorderColor':'#FFAB00'}}}%%

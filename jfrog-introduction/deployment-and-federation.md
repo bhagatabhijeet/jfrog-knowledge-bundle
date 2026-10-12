@@ -32,7 +32,7 @@ flowchart LR
 - Multi-cloud
 - Self-hosted
 
-![Teams at three sites labelled hybrid, multi-cloud and self-hosted](/assets/images/jfrog-introduction/deployment-options.png)
+![Teams at three sites labeled hybrid, multi-cloud and self-hosted](/assets/images/jfrog-introduction/deployment-options.png)
 
 # Federation
 

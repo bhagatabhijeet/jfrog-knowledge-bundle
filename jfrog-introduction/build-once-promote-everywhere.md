@@ -33,7 +33,7 @@ flowchart LR
 |---|---|
 | Build once | The binary is produced by one build, not rebuilt for each stage. |
 | Immutable | The binary does not change after it is built. |
-| Promote | The same binary moves across repositories as it advances towards release. |
+| Promote | The same binary moves across repositories as it advances toward release. |
 
 # Why it matters
 

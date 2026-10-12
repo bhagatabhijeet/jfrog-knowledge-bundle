@@ -100,10 +100,10 @@ sha256sum app-1.0.jar
 
 | Layer | Holds | Think of it as |
 |---|---|---|
-| 🗃️ **Database** | Repository paths, names and metadata, each pointing at a checksum | The library catalogue |
+| 🗃️ **Database** | Repository paths, names and metadata, each pointing at a checksum | The library catalog |
 | 🗄️ **Filestore** | The binaries themselves, named by checksum | The shelves |
 
-Because the path is only a catalogue entry, many operations become database transactions and never touch the file itself.[^docs-checksum-storage]
+Because the path is only a catalog entry, many operations become database transactions and never touch the file itself.[^docs-checksum-storage]
 
 # What you gain
 

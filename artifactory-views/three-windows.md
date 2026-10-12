@@ -1,7 +1,7 @@
 ---
 type: Concept
 title: "Packages, Builds, Artifacts: which is which?"
-description: "The three Artifactory views compared - Packages is a catalogue, Builds is a logbook, Artifacts is a file explorer - and how to choose between them."
+description: "The three Artifactory views compared - Packages is a catalog, Builds is a logbook, Artifacts is a file explorer - and how to choose between them."
 tags: [artifactory, packages, builds, artifacts, fundamentals]
 status: draft
 sources:
@@ -24,7 +24,7 @@ stale_after: 2027-04-11T00:00:00+00:00
 
 Under **Artifactory** in the left menu sit three entries that newcomers constantly mix up. They are not three different stores. They are three windows onto the same software.
 
-![Packages, Builds and Artifacts compared: a catalogue, a logbook and a file explorer](/assets/images/artifactory-views/three-windows.svg)
+![Packages, Builds and Artifacts compared: a catalog, a logbook and a file explorer](/assets/images/artifactory-views/three-windows.svg)
 
 # The four things Artifactory keeps
 

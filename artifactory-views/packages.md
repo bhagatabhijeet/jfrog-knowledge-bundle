@@ -1,6 +1,6 @@
 ---
 type: Reference
-title: "Packages: the catalogue of everything you hold"
+title: "Packages: the catalog of everything you hold"
 description: "What the Packages view does, what it contains and how to use it - filtering, saved views, package details, versions, install commands and the information tabs."
 tags: [artifactory, packages, package-details, install-command, versions]
 status: draft
@@ -20,7 +20,7 @@ stale_after: 2027-04-11T00:00:00+00:00
 ---
 
 > [!TIP]
-> **In one line:** Packages is your organization's catalogue: every package you hold, by name and version, with the command to install it.
+> **In one line:** Packages is your organization's catalog: every package you hold, by name and version, with the command to install it.
 
 **Artifactory → Packages** lists the packages stored in *all* your repositories in one place.[^docs-packages] You do not need to know which repository something is in, or what the file is called. You only need its name.
 
@@ -32,7 +32,7 @@ stale_after: 2027-04-11T00:00:00+00:00
 |---|---|
 | 🔎 **Find** | "Do we have `lodash`? Which versions?" |
 | 📥 **Install** | Copy a ready-made install command for your client |
-| ⚖️ **Judge** | See a version's vulnerabilities and licences before you use it |
+| ⚖️ **Judge** | See a version's vulnerabilities and licenses before you use it |
 | 🧭 **Trace** | See which builds produced a version and which builds use it |
 
 The list gives quick access to summary information about the latest version of each package, and lets you drill down into earlier versions.[^docs-packages]
@@ -85,7 +85,7 @@ Click any row and the **Package Details** screen opens on the latest version or 
 | **Published Date** | When this version was published |
 | **Version Downloads** | How many times this version has been downloaded |
 | **Vulnerabilities** | The Xray scan result, if the version has been scanned |
-| **Licenses** | The licences covering the package |
+| **Licenses** | The licenses covering the package |
 
 ## Choosing a version
 
@@ -127,13 +127,13 @@ These are the tabs JFrog documents for the screen.[^docs-packages]
 %%{init: {'theme':'base','themeVariables':{'primaryColor':'#B2EBF2','primaryBorderColor':'#00B8D4','primaryTextColor':'#00222A','lineColor':'#FF8A00','secondaryColor':'#C8E6C9','tertiaryColor':'#E0F7FA','noteBkgColor':'#FFE57F','noteTextColor':'#2B1B00','noteBorderColor':'#FFAB00'}}}%%
 flowchart LR
     A["🔎 Search by name"] --> B["📋 Pick a version"]
-    B --> C["⚖️ Check vulnerabilities<br/>and licence"]
+    B --> C["⚖️ Check vulnerabilities<br/>and license"]
     C --> D["📥 Copy the install command"]
 ```
 
 | Journey | Steps |
 |---|---|
-| 🆕 **"I need a library"** | Filter by name → open it → check vulnerabilities and licence → copy the install command |
+| 🆕 **"I need a library"** | Filter by name → open it → check vulnerabilities and license → copy the install command |
 | 🚨 **"Is this vulnerable version in use?"** | Open the package → pick the version → **Builds → Used By** |
 | 🗺️ **"Where is it physically?"** | Open the package → **Repositories** → **Show in Artifacts Tree** |
 

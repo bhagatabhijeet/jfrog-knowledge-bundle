@@ -139,7 +139,7 @@ A package can contain one artifact or many.[^docs-objects]
 
 ## 📦 Packages
 
-*In depth: [Packages: the catalogue](/artifactory-views/packages.md).*
+*In depth: [Packages: the catalog](/artifactory-views/packages.md).*
 
 A list of every package stored in every repository. You see a summary of the latest version of each and can drill into earlier versions, filter by type and name, and for some package types copy an install command.[^docs-packages]
 
@@ -180,7 +180,7 @@ See [checksum-based storage](/jfrog-introduction/checksum-based-storage.md) for 
 
 ## 🎁 Release Lifecycle
 
-Release Lifecycle Management controls the flow of **Release Bundles**: a set of artifacts that defines a release candidate is wrapped in a signed bundle, then promoted towards production.[^docs-rlm]
+Release Lifecycle Management controls the flow of **Release Bundles**: a set of artifacts that defines a release candidate is wrapped in a signed bundle, then promoted toward production.[^docs-rlm]
 
 > [!WARNING]
 > **Being retired.** JFrog ended feature development for Release Lifecycle Management on 31 July 2026, with end of life scheduled for 31 January 2028.[^docs-rlm] If you are starting fresh, look at **AppTrust** for governing releases.
@@ -202,9 +202,9 @@ flowchart LR
 
 | Tool | When it acts | What it does |
 |---|---|---|
-| 🚪 **Curation** | *Before* a package gets in | Controls which open source packages can be used, by enforcing security and licence policies before they are downloaded. JFrog calls it the first line of defence.[^docs-curation] |
-| 🔬 **Xray** | *After* it is in | Scans source code and binaries for vulnerabilities, malicious packages, licence risks and operational issues.[^docs-xray] |
-| 📚 **Catalog** | *Any time* | A central catalogue of open source packages and CVEs, enriched with security, compliance and operational-risk insight.[^docs-catalog] |
+| 🚪 **Curation** | *Before* a package gets in | Controls which open source packages can be used, by enforcing security and license policies before they are downloaded. JFrog calls it the first line of defense.[^docs-curation] |
+| 🔬 **Xray** | *After* it is in | Scans source code and binaries for vulnerabilities, malicious packages, license risks and operational issues.[^docs-xray] |
+| 📚 **Catalog** | *Any time* | A central catalog of open source packages and CVEs, enriched with security, compliance and operational-risk insight.[^docs-catalog] |
 
 Xray connects back to the introduction chapter: it is what builds the [SBOM and traceability](/jfrog-introduction/supply-chain-security.md).
 
@@ -223,7 +223,7 @@ AppTrust is JFrog's solution for application risk governance. It puts evidence-b
 
 | Item | What it is for |
 |---|---|
-| 🤖 **AI/ML** | Bringing AI into the same supply chain: a catalogue of models, a registry of approved MCP servers, a registry of agent skills, and tools for building and running machine learning models.[^docs-aiml] |
+| 🤖 **AI/ML** | Bringing AI into the same supply chain: a catalog of models, a registry of approved MCP servers, a registry of agent skills, and tools for building and running machine learning models.[^docs-aiml] |
 | 📡 **Connect** | Managing IoT and edge devices: pushing over-the-air updates to fleets of devices, monitoring them, and reaching them remotely.[^jfrog-connect] |
 
 # 🟠 Integrations and JFrog MCP
@@ -245,11 +245,11 @@ JFrog Distribution provisions the distribution of software releases. It manages 
 
 | Use it when | Example |
 |---|---|
-| A release must reach several sites | Ship version 4.2 to data centres in three regions |
+| A release must reach several sites | Ship version 4.2 to data centers in three regions |
 | Receivers must trust what arrives | Each destination verifies the signature before using it |
 
 > [!NOTE]
-> Distribution is part of the **Enterprise+** licence, so it appears only in menus on that plan.[^docs-distribution]
+> Distribution is part of the **Enterprise+** license, so it appears only in menus on that plan.[^docs-distribution]
 
 # ⚙️ Pipelines
 

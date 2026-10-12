@@ -137,7 +137,7 @@
 | | Concept |
 |:-:|---|
 | **34** | [Packages, Builds, Artifacts: which is which?](artifactory-views/three-windows.md) |
-| **35** | [Packages: the catalogue](artifactory-views/packages.md) |
+| **35** | [Packages: the catalog](artifactory-views/packages.md) |
 | **36** | [Builds: the logbook of your CI](artifactory-views/builds.md) |
 | **37** | [Packages vs Builds: the difference](artifactory-views/packages-vs-builds.md) |
 | **38** | [Artifacts: the file explorer](artifactory-views/artifacts.md) |
@@ -399,7 +399,7 @@ Released under [CC0 1.0 Universal](LICENSE). Use it, adapt it and teach from it,
 
 GitHub's **Cite this repository** button gives the same details in citation formats.
 
-The images in `assets/images/` are not covered by the CC0 licence. They remain the property of JFrog Ltd.
+The images in `assets/images/` are not covered by the CC0 license. They remain the property of JFrog Ltd.
 
 <br/>
 
