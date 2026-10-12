@@ -80,7 +80,7 @@
 | **22** | [What is a JFrog Project?](projects/what-is-a-project.md) |
 | **23** | [Project roles and members](projects/project-roles-and-members.md) |
 | **24** | [Project resources, environments and quotas](projects/project-resources.md) |
-| **25** | [Set up a project](projects/set-up-a-project.md) |
+| **25** | [Walkthrough: create a project](projects/set-up-a-project.md) |
 
 </td>
 <td width="50%" valign="top">
@@ -101,11 +101,13 @@
 
 | | Concept |
 |:-:|---|
-| **26** | [The top bar, decoded](platform-navigation/the-top-bar.md) |
-| **27** | [Subscriptions, sites and JPDs](platform-navigation/subscriptions-sites-and-jpds.md) |
-| **28** | [The launcher](platform-navigation/the-launcher.md) |
-| **29** | [Platform or Administration?](platform-navigation/platform-and-administration.md) |
-| **30** | [MyJFrog: the account portal](platform-navigation/myjfrog-portal.md) |
+| **26** | [Intro to Artifactory SaaS](platform-navigation/intro-to-artifactory-saas.md) |
+| **27** | [The top bar, decoded](platform-navigation/the-top-bar.md) |
+| **28** | [Subscriptions, sites and JPDs](platform-navigation/subscriptions-sites-and-jpds.md) |
+| **29** | [The launcher](platform-navigation/the-launcher.md) |
+| **30** | [Platform or Administration?](platform-navigation/platform-and-administration.md) |
+| **31** | [A tour of the left menu: what JFrog can do](platform-navigation/the-left-menu.md) |
+| **32** | [MyJFrog: the account portal](platform-navigation/myjfrog-portal.md) |
 
 </td>
 <td width="50%" valign="top">

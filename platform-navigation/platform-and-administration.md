@@ -86,4 +86,4 @@ Whichever menu you are in, the **project list** narrows it. Choose a project and
 
 ---
 
-⬅️ [The launcher](/platform-navigation/the-launcher.md) · 📚 [Topic index](/platform-navigation/index.md) · [MyJFrog: the account portal](/platform-navigation/myjfrog-portal.md) ➡️
+⬅️ [The launcher](/platform-navigation/the-launcher.md) · 📚 [Topic index](/platform-navigation/index.md) · [A tour of the left menu: what JFrog can do](/platform-navigation/the-left-menu.md) ➡️
