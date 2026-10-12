@@ -64,9 +64,8 @@ With no single home for them, these artifacts pile up wherever they were last us
 
 ![Two builds of the same version with different contents](/assets/images/jfrog-introduction/inconsistent-builds.png)
 
-# Where to go next
-
-[What JFrog Artifactory is](/jfrog-introduction/what-is-artifactory.md) explains how a single artifact repository removes each of these problems.
+> [!NOTE]
+> **Every one of these problems has the same cure:** one place to keep every artifact. The next pages show [why Git is not that place](/jfrog-introduction/why-not-git-for-artifacts.md) and [what Artifactory does instead](/jfrog-introduction/what-is-artifactory.md).
 
 # Related
 

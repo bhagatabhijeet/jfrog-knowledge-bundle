@@ -44,14 +44,17 @@ Every build the team runs is uploaded straight into Artifactory. That one habit 
 
 # What it makes possible
 
-Each capability below builds on that central store:
+Each capability below builds on that central store. They are listed in the order this chapter covers them.
 
-- [Build once, promote everywhere](/jfrog-introduction/build-once-promote-everywhere.md) - faster, safer releases.
-- [Universal package support](/jfrog-introduction/universal-package-support.md) - one system for every technology.
-- [Remote repositories](/jfrog-introduction/remote-repositories.md) - fast, reliable access to open source dependencies.
-- [Deployment options and federation](/jfrog-introduction/deployment-and-federation.md) - the same artifacts for teams at every site.
-- [Software supply chain security](/jfrog-introduction/supply-chain-security.md) - build metadata, SBOM and traceability.
-- [Access management](/jfrog-introduction/access-management.md) - permissions tied to users, groups and tokens.
+| Capability | What it gives you | Read |
+|---|---|---|
+| 🧰 **One system for every technology** | Over 40 package types managed in one place | [Universal package support](/jfrog-introduction/universal-package-support.md) |
+| ⚡ **Fast, dependable dependencies** | Open source packages proxied and cached | [Remote repositories](/jfrog-introduction/remote-repositories.md) |
+| 🚀 **Safer releases** | One immutable binary promoted from stage to stage | [Build once, promote everywhere](/jfrog-introduction/build-once-promote-everywhere.md) |
+| ♻️ **Efficient storage** | Every binary stored once, by its checksum | [Checksum-based storage](/jfrog-introduction/checksum-based-storage.md) |
+| 🌍 **The same artifacts everywhere** | A choice of deployment models, and federation across sites | [Deployment options and federation](/jfrog-introduction/deployment-and-federation.md) |
+| 🛡️ **Security and traceability** | Build metadata, an SBOM and an audit trail | [Software supply chain security](/jfrog-introduction/supply-chain-security.md) |
+| 🔐 **Controlled access** | Permissions tied to users, groups and tokens | [Access management](/jfrog-introduction/access-management.md) |
 
 # The outcome
 

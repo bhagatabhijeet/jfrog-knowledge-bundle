@@ -185,6 +185,24 @@ Release Lifecycle Management controls the flow of **Release Bundles**: a set of 
 > [!WARNING]
 > **Being retired.** JFrog ended feature development for Release Lifecycle Management on 31 July 2026, with end of life scheduled for 31 January 2028.[^docs-rlm] If you are starting fresh, look at **AppTrust** for governing releases.
 
+# 🚚 Distribution
+
+JFrog Distribution provisions the distribution of software releases. It manages **Release Bundles** and how they are delivered: their content, permission levels and target destinations.[^docs-distribution]
+
+| It gives you | Meaning |
+|---|---|
+| 📦 **One coherent release** | Release binaries travel as a single signed Release Bundle |
+| 🌍 **Many destinations** | Deliver to multiple remote locations, including Edge nodes, and update them as new versions appear |
+| ✅ **Verified on arrival** | The target checks that the bundle is signed correctly and safe to use |
+
+| Use it when | Example |
+|---|---|
+| A release must reach several sites | Ship version 4.2 to data centers in three regions |
+| Receivers must trust what arrives | Each destination verifies the signature before using it |
+
+> [!NOTE]
+> Distribution is part of the **Enterprise+** license, so it appears only in menus on that plan.[^docs-distribution]
+
 # 🔴 Security: three tools, three moments
 
 JFrog's security products cover different points in a package's life.[^docs-security]
@@ -232,24 +250,6 @@ AppTrust is JFrog's solution for application risk governance. It puts evidence-b
 |---|---|
 | 🔌 **Integrations** ([in depth](/platform-navigation/integrations.md)) | Connecting JFrog to the tools around it: GitHub, Jira, Jenkins, build tools such as Maven and Gradle, and the JFrog CLI.[^docs-integrations] |
 | 🧠 **JFrog MCP** | A server that lets AI coding assistants, such as those in VS Code or Cursor, work with your JFrog Platform. On SaaS it is available on all subscription levels.[^docs-mcp] The arrow beside it means it opens outside the menu. |
-
-# 🚚 Distribution
-
-JFrog Distribution provisions the distribution of software releases. It manages **Release Bundles** and how they are delivered: their content, permission levels and target destinations.[^docs-distribution]
-
-| It gives you | Meaning |
-|---|---|
-| 📦 **One coherent release** | Release binaries travel as a single signed Release Bundle |
-| 🌍 **Many destinations** | Deliver to multiple remote locations, including Edge nodes, and update them as new versions appear |
-| ✅ **Verified on arrival** | The target checks that the bundle is signed correctly and safe to use |
-
-| Use it when | Example |
-|---|---|
-| A release must reach several sites | Ship version 4.2 to data centers in three regions |
-| Receivers must trust what arrives | Each destination verifies the signature before using it |
-
-> [!NOTE]
-> Distribution is part of the **Enterprise+** license, so it appears only in menus on that plan.[^docs-distribution]
 
 # ⚙️ Pipelines
 
