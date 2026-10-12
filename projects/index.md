@@ -9,4 +9,4 @@
 
 # Hands-on
 
-* [Set up a project](set-up-a-project.md) - The steps a Platform Admin follows to create a JFrog Project, staff it, give it repositories and keep it healthy, with JFrog's recommended practices.
+* [Walkthrough: create a project in JFrog SaaS](set-up-a-project.md) - Click-by-click steps to create a JFrog Project in SaaS - the Create New Project dialog, adding members, giving it repositories and checking it worked.

@@ -129,7 +129,7 @@ One exception: project-aware repository sharing is on a gradual rollout for SaaS
 
 - [Project roles and members](/projects/project-roles-and-members.md)
 - [Project resources, environments and quotas](/projects/project-resources.md)
-- [Set up a project](/projects/set-up-a-project.md)
+- [Walkthrough: create a project](/projects/set-up-a-project.md)
 - [Access management in Artifactory](/jfrog-introduction/access-management.md)
 
 [^docs-projects]: JFrog documentation, "Get Started with Projects".
