@@ -19,6 +19,13 @@
 
 > **JFrog training, one concept at a time.** Each idea gets one short page with a one-line takeaway, a diagram and a worked example. People can read it in minutes. AI agents can read the same files and know how far to trust them.
 
+**Jump to a chapter:**
+[01 · JFrog Introduction](jfrog-introduction/index.md) ·
+[02 · Repository Management](repository-management/index.md) ·
+[03 · Projects](projects/index.md) ·
+[04 · Finding your way around](platform-navigation/index.md) ·
+[05 · Packages, Builds, Artifacts](artifactory-views/index.md)
+
 <img src="assets/readme/divider.svg" alt="" width="100%"/>
 
 ## 📰 In this issue
