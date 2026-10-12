@@ -30,6 +30,8 @@ It is easy to confuse with your site, because both are "JFrog in the browser". T
 
 # Two front doors
 
+![Two front doors: MyJFrog for the people who run the account, your site for everyone who builds and ships](/assets/images/platform-navigation/myjfrog-two-doors.svg)
+
 | | 🪪 MyJFrog | 🖥️ Your site |
 |---|---|---|
 | **Address** | `my.jfrog.com` | `<server-name>.jfrog.io` |

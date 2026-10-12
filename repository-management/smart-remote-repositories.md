@@ -20,6 +20,8 @@ stale_after: 2027-04-10T00:00:00+00:00
 
 A Smart Remote repository is a [remote repository](/repository-management/remote-repositories.md) that proxies a local, remote or federated repository from another Artifactory instance or an Edge node. It has all the usual benefits of a remote repository, plus four more.[^docs-smart-remote]
 
+![A Smart Remote repository at one site proxying a repository at another, with download statistics, property changes, folder listings and deletion signals passing between them](/assets/images/repository-management/smart-remote-repository.svg)
+
 ```mermaid
 %%{init: {'theme':'base','themeVariables':{'primaryColor':'#FFE0B2','primaryBorderColor':'#FF8A00','primaryTextColor':'#2B1B00','lineColor':'#7C4DFF','secondaryColor':'#E1BEE7','tertiaryColor':'#FFF3E0','noteBkgColor':'#E1BEE7','noteTextColor':'#2A0A3A','noteBorderColor':'#7C4DFF'}}}%%
 flowchart LR

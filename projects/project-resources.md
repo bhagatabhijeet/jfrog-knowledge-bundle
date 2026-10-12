@@ -37,6 +37,8 @@ stale_after: 2027-04-11T00:00:00+00:00
 
 A project's resources are the things its members work with: repositories, builds and Pipelines resources.[^docs-resources]
 
+![What a project owns and what it borrows: repositories by environment, a build-info repository, a storage quota, and repositories shared from other projects](/assets/images/projects/project-resources.svg)
+
 # Repositories in a project
 
 | Rule | Detail |

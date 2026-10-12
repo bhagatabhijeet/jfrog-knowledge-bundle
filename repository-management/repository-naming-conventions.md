@@ -37,6 +37,8 @@ flowchart LR
     K --> D["local<br/>locator"]
 ```
 
+![Anatomy of a repository name: team, tech, maturity and locator, with the pattern for local, remote and virtual repositories](/assets/images/repository-management/repository-name-anatomy.svg)
+
 # The four parts
 
 ```text
