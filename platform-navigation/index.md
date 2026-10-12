@@ -11,5 +11,5 @@
 # What you can do
 
 * [Platform or Administration?](platform-and-administration.md) - The two main menus of a JFrog site - Platform for using repositories, packages and projects, Administration for configuring the site - and how to know which one you need.
-* [A tour of the left menu: what JFrog can do](the-left-menu.md) - Every item in the JFrog Platform's left menu explained - Packages, Builds, Artifacts, Release Lifecycle, Xray, Curation, Catalog, AppTrust, AI/ML, Connect, Integrations and MCP - plus Distribution and Pipelines.
+* [A tour of the left menu: what JFrog can do](the-left-menu.md) - Every item in the JFrog Platform's left menu explained - Packages, Builds, Artifacts, Release Lifecycle, Xray, Distribution, AI/ML, Connect, Pipelines, Integrations, AppTrust, Curation, Catalog and MCP.
 * [MyJFrog: the account portal](myjfrog-portal.md) - MyJFrog at my.jfrog.com is the portal for managing a JFrog Cloud account - subscription, usage, security settings and topology - as distinct from the sites where teams work.

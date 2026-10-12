@@ -1,6 +1,7 @@
 # Bundle Update Log
 
 ## 2026-10-11
+* **Update**: The left menu tour now covers Distribution and Pipelines as menu items and explains that menus differ between sites.
 * **Creation**: Added [Intro to Artifactory SaaS](platform-navigation/intro-to-artifactory-saas.md) as the opening page of Finding your way around.
 * **Update**: Expanded the project setup page into a full [create-a-project walkthrough](projects/set-up-a-project.md) for JFrog SaaS, with a dialog infographic.
 * **Creation**: Added [A tour of the left menu: what JFrog can do](platform-navigation/the-left-menu.md), covering every Platform menu item, with two infographics.

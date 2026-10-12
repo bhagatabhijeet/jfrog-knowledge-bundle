@@ -1,7 +1,7 @@
 ---
 type: Reference
 title: "A tour of the left menu: what JFrog can do"
-description: "Every item in the JFrog Platform's left menu explained - Packages, Builds, Artifacts, Release Lifecycle, Xray, Curation, Catalog, AppTrust, AI/ML, Connect, Integrations and MCP - plus Distribution and Pipelines."
+description: "Every item in the JFrog Platform's left menu explained - Packages, Builds, Artifacts, Release Lifecycle, Xray, Distribution, AI/ML, Connect, Pipelines, Integrations, AppTrust, Curation, Catalog and MCP."
 tags: [platform-navigation, left-menu, artifactory, xray, curation, catalog, apptrust, connect, integrations, capabilities]
 status: draft
 sources:
@@ -82,21 +82,45 @@ stale_after: 2027-01-11T00:00:00+00:00
 > [!TIP]
 > **In one line:** The left menu is JFrog's whole product range in one column: store it, secure it, govern it, ship it.
 
-Click **Platform** on the top bar and a menu runs down the left of the screen. Each entry is a capability of the JFrog Platform. This page walks down it, top to bottom.
+Click **Platform** on the top bar and a menu runs down the left of the screen. Each entry is a capability of the JFrog Platform. This page describes every one of them.
 
-![The JFrog Platform left menu with every item explained: All Projects, Get Started, Best Practices, AppTrust, Artifactory with Packages, Builds, Artifacts and Release Lifecycle, Xray, Curation, Catalog, AI/ML, Connect, Integrations and JFrog MCP](/assets/images/platform-navigation/left-menu-tour.svg)
+> [!IMPORTANT]
+> **Your menu may not match your colleague's.** The items shown depend on your organization's subscription and your own role.[^docs-working] The picture below lists every item you are likely to meet; expect to see only some of them.
+
+![The JFrog Platform left menu with every item explained: All Projects, Get Started, Best Practices, AppTrust, Artifactory with Packages, Builds, Artifacts and Release Lifecycle, Xray, Curation, Catalog, Distribution, AI/ML, Connect, Pipelines, Integrations and JFrog MCP](/assets/images/platform-navigation/left-menu-tour.svg)
+
+# Two menus, same platform
+
+Here are two real menus from two JFrog SaaS sites. Neither is wrong.
+
+| Menu A | Menu B |
+|---|---|
+| AppTrust 👑 | |
+| **Artifactory**: Packages, Builds, Artifacts, Release Lifecycle | **Artifactory**: Packages, Builds, Artifacts, Release Lifecycle |
+| Xray | Xray |
+| Curation 👑, Catalog 👑 | |
+| | Distribution |
+| AI/ML 👑 | AI/ML |
+| Connect 👑 | Connect ↗ |
+| | Pipelines |
+| Integrations | Integrations |
+| JFrog MCP ↗ | |
+
+The **Artifactory** block and **Xray** are in both. Everything else comes and goes with the plan. An arrow ↗ means the item opens outside the menu.
 
 # Read it in groups
 
-Sixteen items is a lot. Five groups is not.
+Eighteen items is a lot. Six groups is not.
 
 | Group | Menu items | The question it answers |
 |---|---|---|
 | 🟢 **Store and release** | Artifactory: Packages, Builds, Artifacts, Release Lifecycle | *Where is our software, and what is in it?* |
+| 🚚 **Deliver** | Distribution | *How does a release reach other sites?* |
 | 🔴 **Secure** | Xray, Curation, Catalog | *Is what we use safe?* |
 | 🟡 **Govern** | AppTrust | *May this release go to production?* |
 | 🟣 **AI and devices** | AI/ML, Connect | *What about our models and our devices?* |
 | 🟠 **Connect your tools** | Integrations, JFrog MCP | *How does JFrog fit with everything else?* |
+| ⚙️ **Automate (retired)** | Pipelines | *How did JFrog run CI/CD itself?* |
 
 At the very top, the **All Projects** selector narrows the whole menu to one [project](/projects/what-is-a-project.md).[^docs-interface] **Get Started** and **Best Practices** are guides for finding your feet.
 
@@ -203,16 +227,40 @@ AppTrust is JFrog's solution for application risk governance. It puts evidence-b
 | 🔌 **Integrations** | Connecting JFrog to the tools around it: GitHub, Jira, Jenkins, build tools such as Maven and Gradle, and the JFrog CLI.[^docs-integrations] |
 | 🧠 **JFrog MCP** | A server that lets AI coding assistants, such as those in VS Code or Cursor, work with your JFrog Platform. On SaaS it is available on all subscription levels.[^docs-mcp] The arrow beside it means it opens outside the menu. |
 
-# Two names you may hear but not see
+# 🚚 Distribution
 
-| Name | Why it is not in your menu |
+JFrog Distribution provisions the distribution of software releases. It manages **Release Bundles** and how they are delivered: their content, permission levels and target destinations.[^docs-distribution]
+
+| It gives you | Meaning |
 |---|---|
-| 🚚 **Distribution** | JFrog Distribution delivers Release Bundles to remote locations such as Edge nodes. It is part of the **Enterprise+** licence, so it appears only on that plan.[^docs-distribution] |
-| ⚙️ **Pipelines** | JFrog's own CI/CD product **reached end of life on 1 May 2026** and receives no further updates.[^docs-pipelines-eol] Older training material still mentions it. JFrog points customers to other CI/CD tools, connected through Integrations. |
+| 📦 **One coherent release** | Release binaries travel as a single signed Release Bundle |
+| 🌍 **Many destinations** | Deliver to multiple remote locations, including Edge nodes, and update them as new versions appear |
+| ✅ **Verified on arrival** | The target checks that the bundle is signed correctly and safe to use |
+
+| Use it when | Example |
+|---|---|
+| A release must reach several sites | Ship version 4.2 to data centres in three regions |
+| Receivers must trust what arrives | Each destination verifies the signature before using it |
+
+> [!NOTE]
+> Distribution is part of the **Enterprise+** licence, so it appears only in menus on that plan.[^docs-distribution]
+
+# ⚙️ Pipelines
+
+Pipelines was JFrog's own CI/CD orchestration product: it ran the steps that build, test and release software.
+
+> [!WARNING]
+> **Retired.** JFrog Pipelines reached end of life on **1 May 2026** and no longer receives updates, bug fixes or security patches. Both SaaS and self-managed deployments are affected, and JFrog tells customers to complete their migration to an alternative CI/CD solution.[^docs-pipelines-eol]
+
+| If you see Pipelines in your menu | What to do |
+|---|---|
+| 🆕 You are starting something new | Do not build on it. Use your CI/CD tool of choice, connected through **Integrations** |
+| 🏚️ Your team has existing pipelines there | Plan the move now. It is no longer patched |
+| 📚 A course or old document tells you to use it | Treat that part as out of date |
 
 # What the crown means
 
-In the menu pictured, a small crown sits beside AppTrust, Curation, Catalog, AI/ML and Connect. The features available to you vary with your organization's subscription,[^docs-working] and a crown like this conventionally marks a capability that is not part of your current plan.
+In Menu A above, a small crown sits beside AppTrust, Curation, Catalog, AI/ML and Connect. Menu B shows no crowns at all. The features available to you vary with your organization's subscription,[^docs-working] and a crown like this conventionally marks a capability that is not part of your current plan.
 
 > [!NOTE]
 > That reading of the crown is an inference, not something JFrog's documentation states. To be sure what your plan includes, check your subscription in [MyJFrog](/platform-navigation/myjfrog-portal.md).
@@ -238,6 +286,7 @@ Put the menu items in the order software actually travels and the picture become
 | You are a... | Open first |
 |---|---|
 | 👩‍💻 **Developer** | **Packages**, to find what you need, then **Artifacts** |
+| 🚚 **Release manager** | **Release Lifecycle**, then **Distribution** if you have it |
 | 🚀 **Release or DevOps engineer** | **Builds**, then **Artifacts** |
 | 🛡️ **Security engineer** | **Xray** |
 | 🧭 **New to the platform** | **Get Started**, then this bundle's [introduction](/jfrog-introduction/index.md) |
