@@ -28,9 +28,13 @@ flowchart LR
 
 # Installation models
 
-- Hybrid
-- Multi-cloud
-- Self-hosted
+| Model | In plain words |
+|---|---|
+| 🖥️ **Self-hosted** | You run Artifactory on your own infrastructure |
+| ☁️ **Multi-cloud** | Artifactory runs on more than one cloud provider |
+| 🔀 **Hybrid** | A mix: some of it in the cloud, some of it on your own infrastructure |
+
+The model names are JFrog's. The one-line descriptions are a plain-language guide.
 
 ![Teams at three sites labeled hybrid, multi-cloud and self-hosted](/assets/images/jfrog-introduction/deployment-options.png)
 
@@ -40,9 +44,22 @@ Artifacts can be federated across multiple sites, so teams in different location
 
 ![Three teams at different sites sharing the same set of artifacts](/assets/images/jfrog-introduction/federation.png)
 
+# Why federate?
+
+| Without federation | With federation |
+|---|---|
+| Each site has its own copy, and they drift apart | Every site sees the same artifacts |
+| Teams wait for files to be sent across | The artifact is already there |
+| "Which site has the right version?" | They all do |
+
+> [!NOTE]
+> On JFrog SaaS, each location is a **site**. See [subscriptions, sites and JPDs](/platform-navigation/subscriptions-sites-and-jpds.md) for how sites are organized, and [Artifactory editions](/jfrog-introduction/artifactory-editions.md) for who runs what.
+
 # Related
 
-- [What JFrog Artifactory is](/jfrog-introduction/what-is-artifactory.md)
+- [Subscriptions, sites and JPDs](/platform-navigation/subscriptions-sites-and-jpds.md)
+- [Artifactory editions: Open Source and SaaS](/jfrog-introduction/artifactory-editions.md)
+- [Repository types in Artifactory](/repository-management/repository-types.md) - federated repositories are the fourth type.
 - [Artifact sprawl](/jfrog-introduction/artifact-sprawl.md) - "more developers across multiple sites" is one of the causes this addresses.
 
 ---

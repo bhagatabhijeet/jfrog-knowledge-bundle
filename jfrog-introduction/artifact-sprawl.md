@@ -68,6 +68,12 @@ With no single home for them, these artifacts pile up wherever they were last us
 
 [What JFrog Artifactory is](/jfrog-introduction/what-is-artifactory.md) explains how a single artifact repository removes each of these problems.
 
+# Related
+
+- [What is an artifact?](/jfrog-introduction/what-is-an-artifact.md)
+- [Why not Git for artifacts? Why Artifactory?](/jfrog-introduction/why-not-git-for-artifacts.md)
+- [What JFrog Artifactory is](/jfrog-introduction/what-is-artifactory.md)
+
 ---
 
 ⬅️ [What is an artifact repository?](/jfrog-introduction/what-is-an-artifact-repository.md) · 📚 [Topic index](/jfrog-introduction/index.md) · [Why not Git for artifacts? Why Artifactory?](/jfrog-introduction/why-not-git-for-artifacts.md) ➡️

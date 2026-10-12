@@ -110,7 +110,7 @@ The **Artifactory** block and **Xray** are in both. Everything else comes and go
 
 # Read it in groups
 
-Eighteen items is a lot. Six groups is not.
+Eighteen items is a lot. Seven groups is not.
 
 | Group | Menu items | The question it answers |
 |---|---|---|

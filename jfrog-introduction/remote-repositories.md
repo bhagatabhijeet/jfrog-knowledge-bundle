@@ -36,14 +36,27 @@ sequenceDiagram
 
 | Benefit | Why |
 |---|---|
-| Faster builds | Dependencies come from the cache, which dramatically improves build speed. |
-| Lower network latency | Fewer round trips to external sources. |
-| Reliable access | A cached package stays available even when the public OSS package becomes unavailable. |
+| ⚡ **Faster builds** | Dependencies come from the cache, which dramatically improves build speed. |
+| 🌐 **Lower network latency** | Fewer round trips to external sources. |
+| 🛟 **Reliable access** | A cached package stays available even when the public OSS package becomes unavailable. |
+
+# First request, every request after
+
+| | 🥇 The first time | 🔁 Every time after |
+|---|---|---|
+| Where the package comes from | The public registry, through Artifactory | Artifactory's own cache |
+| Needs the internet? | Yes | No |
+| Speed | Normal | Fast |
+| If the public registry is down | The build waits or fails | The build carries on |
+
+> [!NOTE]
+> This page is the *why*. For the *how*, including the proxy-not-mirror rule and the cache address, read [remote repositories in depth](/repository-management/remote-repositories.md).
 
 # Related
 
+- [Remote repositories in depth](/repository-management/remote-repositories.md)
+- [Repository types in Artifactory](/repository-management/repository-types.md) - local, remote and virtual together.
 - [Universal package support](/jfrog-introduction/universal-package-support.md) - the single source of truth these cached packages feed.
-- [What JFrog Artifactory is](/jfrog-introduction/what-is-artifactory.md)
 
 ---
 

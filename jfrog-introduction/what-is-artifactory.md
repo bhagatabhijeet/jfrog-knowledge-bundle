@@ -57,6 +57,12 @@ Each capability below builds on that central store:
 
 For Complexoft, builds became reliable, deployments became predictable, and the team gained a clear view of, and control over, its software delivery process. Artifactory helped it deliver trusted releases at speed and scale.
 
+# Related
+
+- [Artifactory editions: Open Source and SaaS](/jfrog-introduction/artifactory-editions.md)
+- [Intro to Artifactory SaaS](/platform-navigation/intro-to-artifactory-saas.md)
+- [Artifact sprawl: the problem Artifactory solves](/jfrog-introduction/artifact-sprawl.md)
+
 ---
 
 ⬅️ [Why not Git for artifacts? Why Artifactory?](/jfrog-introduction/why-not-git-for-artifacts.md) · 📚 [Topic index](/jfrog-introduction/index.md) · [Artifactory editions: Open Source and SaaS](/jfrog-introduction/artifactory-editions.md) ➡️

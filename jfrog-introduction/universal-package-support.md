@@ -34,16 +34,35 @@ Because every package type lives in the same place, a company can rely on Artifa
 
 # What changes for the team
 
-| Without it | With it |
+| ❌ Without it | ✅ With it |
 |---|---|
 | A separate store or tool per technology | One system for all package types |
 | Packages scattered and hard to find | Packages organized and ready for reuse |
 | No agreed place to look | One source of truth |
 
+# A few of the package types
+
+| Ecosystem | Package type | What it looks like |
+|---|---|---|
+| ☕ Java | Maven, Gradle | `.jar`, `.war` |
+| 🟩 JavaScript | npm | `.tgz` packages |
+| 🐍 Python | PyPI | `.whl` wheels |
+| 🟦 .NET | NuGet | `.nupkg` packages |
+| 🐳 Containers | Docker | Images and tags |
+| ⎈ Kubernetes | Helm | Charts |
+| 📁 Anything else | Generic | Any file at all |
+
+These are examples. The full list is much longer.
+
+> [!IMPORTANT]
+> **One system does not mean one repository.** Each repository holds a single package type, chosen when it is created. See [why the package type matters](/repository-management/why-package-type-matters.md).
+
 # Related
 
-- [What JFrog Artifactory is](/jfrog-introduction/what-is-artifactory.md)
+- [Why the package type matters](/repository-management/why-package-type-matters.md)
+- [Packages: the catalog of everything you hold](/artifactory-views/packages.md) - where you browse them all.
 - [Remote repositories](/jfrog-introduction/remote-repositories.md) - how external open source packages get into that single source.
+- [What JFrog Artifactory is](/jfrog-introduction/what-is-artifactory.md)
 
 ---
 
